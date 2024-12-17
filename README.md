@@ -1,5 +1,4 @@
 Neha's Portfolio
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -35,7 +34,7 @@ Neha's Portfolio
     </div>
     <div class="project">
       <h3>Rep Counter</h3>
-<p>PROJECT <a href="https://raw.githubusercontent.com/nehanepal/.github.io/main/Final Project.mp4" target="_blank">Watch the video</a></p>
+      <p>PROJECT <a href="#" target="_blank">View on GitHub</a></p>
     </div>
     <div class="project">
         <h3>Air Motor</h3>
