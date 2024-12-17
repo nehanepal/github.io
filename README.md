@@ -31,15 +31,15 @@ Neha's Portfolio
     <img src="img_0009.jpg" alt="My Image" width="300">
     <div class="project">
       <h3>Coding Projects (Matlab and Python)</h3>
-      <p>Description of the project. <a href="#" target="_blank">View on GitHub</a></p>
+      <p>PROJECT <a href="#" target="_blank">View on GitHub</a></p>
     </div>
     <div class="project">
       <h3>Rep Counter</h3>
-      <p>Description of the project. <a href="#" target="_blank">View on GitHub</a></p>
+<p>PROJECT <a href="https://raw.githubusercontent.com/nehanepal/.github.io/main/FinalProject.mp4" target="_blank">Watch the video</a></p>
     </div>
     <div class="project">
         <h3>Air Motor</h3>
-        <p>Description of the project. <a href="#" target="_blank">View on GitHub</a></p>
+        <p>PROJECT <a href="#" target="_blank">View on GitHub</a></p>
       </div>
   </section>
 
