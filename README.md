@@ -3,7 +3,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-![0000-218886-684141_Nepal](https://github.com/user-attachments/assets/d8718ae2-3e83-4717-a4b0-826c7edd6f41)
 </head>
 <body>
   <header>
