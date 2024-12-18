@@ -16,7 +16,7 @@
       </ul>
     </nav>
   </header>
-  <img width="300" alt="picture" src="https://github.com/user-attachments/assets/0212346e-21c7-4273-9232-c89de8196bac" />
+  <img width="300" alt="picture" src="https://github.com/user-attachments/assets/0212346e-21c7-4273-
   <section id="about">
     <h2>About Me</h2>
     <p>Hi! My name is Neha Nepal and I am a third year Mechanical Engineering Student at the University of California, Santa Barbara. </p>
