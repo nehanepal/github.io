@@ -41,10 +41,12 @@ This experimental setup will enable us to study the fundamental interactions and
     </div>
     <div class="project">
       <h3>Rep Counter</h3>
-    </div>
+      For my design class, I maintained a comprehensive record of all my projects, including drawings, sketches, invention ideas, circuitry, SolidWorks designs, and the final project. The final project, which won the "Most Technical Project" award in the class, is showcased on pages 31-38 of the slideshow, accompanied by a video.
+      </div>
     <div class="project">
         <h3>Air Motor</h3>
-        <p>In this project, I designed and built a fully operational air motor, utilizing a range of machining tools and techniques. I operated band saws for cutting raw stock and used Haas vertical mills to precisely cut and drill key motor components. Additionally, I demonstrated machining proficiency by working with lathes to shape, sand, and drill spherical components. After assembly, I achieved an air motor speed of 2800 RPM, surpassing the expected performance by 400 RPM. I conducted thorough performance tests to ensure the motor met all design specifications and ran efficiently. Throughout the project, I documented the process, including design iterations and troubleshooting, providing a comprehensive record of the build. <a href="Coding.md">View on GitHub</a></p>
+      In this project, I designed and built a fully operational air motor, utilizing a range of machining tools and techniques. I operated band saws for cutting raw stock and used Haas vertical mills to precisely cut and drill key motor components. Additionally, I demonstrated machining proficiency by working with lathes to shape, sand, and drill spherical components. After assembly, I achieved an air motor speed of 2800 RPM, surpassing the expected performance by 400 RPM. I conducted thorough performance tests to ensure the motor met all design specifications and ran efficiently. Throughout the project, I documented the process, including design iterations and troubleshooting, providing a comprehensive record of the build.
+      <img width="324" alt="airmotor" src="https://github.com/user-attachments/assets/acd59366-97c1-45d1-a62b-9d4f7dbff873" />
       </div>
   </section>
 
