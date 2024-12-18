@@ -35,6 +35,7 @@ This experimental setup will enable us to study the fundamental interactions and
     <h2>Projects</h2>
     <div class="project">
       <h3>Coding Projects (Matlab and Python)</h3>
+      The Billiard Simulation Project simulates the motion and collision dynamics of two balls (one blue and one red) in a confined space using MATLAB. The simulation takes into account various forces, including gravity, drag, and friction, to model the motion of the balls. Using principles of physics, the code calculates the velocities, positions, and collision responses of the balls when they hit walls or each other, accounting for energy loss due to damping and friction. The project also includes collision handling with walls and between the balls, using velocity predictions and adjusting them based on the impacts.
       <p> <a href="billiard__Copy_.pdf">Download Project Report</a> </p>
       <p> <a href="Untitled.mov">Download Simulation Video</a> </p>
     </div>
@@ -43,7 +44,7 @@ This experimental setup will enable us to study the fundamental interactions and
     </div>
     <div class="project">
         <h3>Air Motor</h3>
-        <p>PROJECT <a href="Coding.md">View on GitHub</a></p>
+        <p>In this project, I designed and built a fully operational air motor, utilizing a range of machining tools and techniques. I operated band saws for cutting raw stock and used Haas vertical mills to precisely cut and drill key motor components. Additionally, I demonstrated machining proficiency by working with lathes to shape, sand, and drill spherical components. After assembly, I achieved an air motor speed of 2800 RPM, surpassing the expected performance by 400 RPM. I conducted thorough performance tests to ensure the motor met all design specifications and ran efficiently. Throughout the project, I documented the process, including design iterations and troubleshooting, providing a comprehensive record of the build. <a href="Coding.md">View on GitHub</a></p>
       </div>
   </section>
 
