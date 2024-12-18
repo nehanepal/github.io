@@ -29,15 +29,15 @@
     <h2>Projects</h2>
     <div class="project">
       <h3>Coding Projects (Matlab and Python)</h3>
-      <p>PROJECT <a href="RepCounter.md" target="_blank">View on GitHub</a></p>
+      <p>PROJECT <a href="RepCounter.md">View on GitHub</a></p>
     </div>
     <div class="project">
       <h3>Rep Counter</h3>
-      <p>PROJECT <a href="RepCounter.md" target="_blank">View on GitHub</a></p>
+      <p>PROJECT <a href="RepCounter.md">View on GitHub</a></p>
     </div>
     <div class="project">
         <h3>Air Motor</h3>
-        <p>PROJECT <a href="#" target="_blank">View on GitHub</a></p>
+        <p>PROJECT <a href="#">View on GitHub</a></p>
       </div>
   </section>
 
