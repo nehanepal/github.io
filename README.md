@@ -24,16 +24,16 @@
   <section id="research">
     <h2>Research</h2>
     <p>I am an incoming undergraduate research assistant at the FES-Lab, starting in Winter Quarter 2025. Our research focuses on evaluating how the efficiency of direct air capture (DAC) devices changes as their size is scaled down. The overarching goal is to determine if it’s possible to reduce the size of these machines while maintaining or improving efficiency, thereby decreasing production and operational costs.
-
+\\
 My specific role in the lab involves designing and building an experimental setup that uses an Arduino microcontroller to operate several peristaltic pumps. These pumps will precisely inject and withdraw water infused with dyes, simulating the dynamics of a chemical reaction. By controlling the flow rates and patterns, this system aims to mimic the processes occurring in DAC machines, such as carbon absorption and processing.
-
+\\
 This experimental setup will enable us to study the fundamental interactions and efficiencies of scaled-down DAC processes in a controlled, small-scale environment. The findings from this work could contribute to optimizing DAC technology, making it more accessible and cost-effective for large-scale carbon capture efforts.</p>
   </section>
   <section id="projects">
     <h2>Projects</h2>
     <div class="project">
       <h3>Coding Projects (Matlab and Python)</h3>
-      <p>PROJECT <a href="billiard__Copy_.pdf">Download Project Report</a> </p>
+      <p> <a href="billiard__Copy_.pdf">Download Project Report</a> </p>
       <p> <a href="Untitled.mov">Download Simulation Video</a> </p>
     </div>
     <div class="project">
