@@ -33,7 +33,7 @@
     </div>
     <div class="project">
       <h3>Rep Counter</h3>
-      <p>PROJECT <a href="#" target="_blank">View on GitHub</a></p>
+      <p>PROJECT <a href="RepCounter.md" target="_blank">View on GitHub</a></p>
     </div>
     <div class="project">
         <h3>Air Motor</h3>
