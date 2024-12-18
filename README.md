@@ -40,7 +40,6 @@ This experimental setup will enable us to study the fundamental interactions and
     </div>
     <div class="project">
       <h3>Rep Counter</h3>
-      <p>PROJECT <a href="Coding.md">View on GitHub</a></p>
     </div>
     <div class="project">
         <h3>Air Motor</h3>
