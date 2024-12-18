@@ -16,6 +16,7 @@
       </ul>
     </nav>
   </header>
+  ![Alt Text](https://raw.githubusercontent.com/nehanepal/.github.io/main/path/to/image.png)
   <section id="about">
     <h2>About Me</h2>
     <p>Hi! My name is Neha Nepal and I am a third year Mechanical Engineering Student at the University of California, Santa Barbara. </p>
