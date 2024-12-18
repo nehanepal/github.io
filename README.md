@@ -29,7 +29,8 @@
     <h2>Projects</h2>
     <div class="project">
       <h3>Coding Projects (Matlab and Python)</h3>
-      <p>PROJECT <a href="billiard__Copy_.pdf">Download the Project Report</a></p>
+      <p>PROJECT 
+        [Visit Coding Page](codingprojects.md) </p>
     </div>
     <div class="project">
       <h3>Rep Counter</h3>
