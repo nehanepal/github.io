@@ -29,8 +29,7 @@
     <h2>Projects</h2>
     <div class="project">
       <h3>Coding Projects (Matlab and Python)</h3>
-      <p>PROJECT 
-        [Visit Coding Page](codingprojects.md) </p>
+      <p>PROJECT <a href="codingprojects.md">View Coding Page</a> </p>
     </div>
     <div class="project">
       <h3>Rep Counter</h3>
