@@ -27,7 +27,6 @@
   </section>
   <section id="projects">
     <h2>Projects</h2>
-    <img src="img_0009.jpg" alt="My Image" width="300">
     <div class="project">
       <h3>Coding Projects (Matlab and Python)</h3>
       <p>PROJECT <a href="#" target="_blank">View on GitHub</a></p>
