@@ -7,7 +7,7 @@
 <body>
   <header>
     <nav>
-    <h1 style="font-size: 4rem; color: #FFCCE1;">NEHA NEPAL</h1>
+    <h1 style="font-size: 4rem; color: #000000;">NEHA NEPAL</h1>
       <ul>
         <li><a href="#about">About Me</a></li>
         <li><a href= "#research">Research</a></li>
