@@ -19,7 +19,7 @@
   <img width="300" alt="picture" src="https://github.com/user-attachments/assets/66623dbf-6f83-4f76-a629-317a79cafd85" />
   <section id="about">
     <h2>About Me</h2>
-    <p>Hi! My name is Neha Nepal and I am a third year Mechanical Engineering Student at the University of California, Santa Barbara. </p>
+    <p>Hi! My name is Neha Nepal and I am a third year Mechanical Engineering Student at the University of California, Santa Barbara. I am particularly interested in sustainable energy solutions and optimizing systems for energy efficiency, particularly in the field of aerospace engineering. </p>
   </section>
   <section id="research">
     <h2>Research</h2>
