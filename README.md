@@ -64,7 +64,7 @@ This experimental setup will enable us to study the fundamental interactions and
       <div style="text-align: center;">
 <img width="600" alt="Untitled" src="https://github.com/user-attachments/assets/43d99ee1-b701-497a-b4f0-d361d58dc79f" />
          </div>
-      The Billiard Simulation Project simulates the motion and collision dynamics of two balls (one blue and one red) in a confined space using MATLAB. The simulation takes into account various forces, including gravity, drag, and friction, to model the motion of the balls. Using principles of physics, the code calculates the velocities, positions, and collision responses of the balls when they hit walls or each other, accounting for energy loss due to damping and friction. The project also includes collision handling with walls and between the balls, using velocity predictions and adjusting them based on the impacts.
+      The Billiard Simulation Project simulates the motion and collision dynamics of two balls (one blue and one red) in a confined space using MATLAB. The simulation takes into account various forces, including gravity, drag, and friction, to model the motion of the balls. Using principles of physics, the code calculates the velocities, positions, and collision responses of the balls when they hit walls or each other, accounting for energy loss due to damping and friction. The project also includes collision handling with walls and between the balls, using velocity predictions and adjusting them based on the impacts. This was my work on the project.
       <p> <a href="billiard__Copy_.pdf">Download Project Report</a> </p>
       <p> <a href="Untitled.mov">Download Simulation Video</a> </p>
     </div>
