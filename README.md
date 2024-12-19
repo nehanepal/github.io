@@ -9,11 +9,11 @@
     }
     /* Add this to styles.css */
     a {
-      color: #CF8E80;
+      color: #2B4570;
       text-decoration: none;
     }
     a:hover {
-      color: #CF8E80;
+      color: #7180AC;
       text-decoration: underline;
     }
     section {
