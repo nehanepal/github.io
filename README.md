@@ -48,7 +48,8 @@
     <p>Hi! My name is Neha Nepal, and I am a third-year Mechanical Engineering student at the University of California, Santa Barbara. I was born in Nepal and moved to the United States when I was seven years old. UCSB had been my dream school since my freshman year of high school, but by senior year, it became my third choice. Initially, I applied to most schools with plans to pursue aerospace engineering. However, after visiting UCSB, I realized it was the perfect fit for me and chose it over my other options.
       
 Because UCSB doesn’t offer an aerospace engineering program, I enrolled in Mechanical Engineering and have thrived in the program. Meeting peers with interests ranging from bioengineering to mechatronics has broadened my perspective and diversified my interests. While I remain passionate about aerospace engineering, my focus has expanded to include sustainable energy solutions and optimizing systems for energy efficiency within the field. 
-  </section>
+
+</section>
   <section id="research">
     <h2>Research</h2>
     <p>I am an incoming undergraduate research assistant at the FES-Lab, starting in Winter Quarter 2025. Our research focuses on evaluating how the efficiency of direct air capture (DAC) devices changes as their size is scaled down. The overarching goal is to determine if it’s possible to reduce the size of these machines while maintaining or improving efficiency, thereby decreasing production and operational costs.
