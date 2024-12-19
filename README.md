@@ -7,6 +7,21 @@
     body {
       background-color: #f0f8ff; 
     }
+    /* Add this to styles.css */
+    a {
+      color: #000000;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #ff4500;
+      text-decoration: underline;
+    }
+    a:visited {
+      color: #551a8b;
+    }
+    a:active {
+      color: #006400;
+    }
     section {
       border: 2px solid #000; /* Black border */
       border-radius: 10px; /* Rounded corners */
