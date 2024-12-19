@@ -9,18 +9,18 @@
     }
     /* Add this to styles.css */
     a {
-      color: #000000;
+      color: #FCDDF2;
       text-decoration: none;
     }
     a:hover {
-      color: #ff4500;
+      color: #CF8E80;
       text-decoration: underline;
     }
     a:visited {
-      color: #551a8b;
+      color: #916953;
     }
     a:active {
-      color: #006400;
+      color: #FCB5B5;
     }
     section {
       border: 2px solid #000; /* Black border */
