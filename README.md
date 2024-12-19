@@ -64,7 +64,7 @@ This experimental setup will enable us to study the fundamental interactions and
   <section id="contact">
     <h2>Contact</h2>
     <p><a href="mailto:nepalneha1@gmail.com">nepalneha1@gmail.com</a></p>
-    <p><a href="www.linkedin.com/in/nehanepal" target="_blank">My LinkedIn Profile</a></p>
+    <p><a href="www.linkedin.com/in/nehanepal/" target="_blank">My LinkedIn Profile</a></p>
   </section>
 
   <footer>
