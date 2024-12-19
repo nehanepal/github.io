@@ -9,7 +9,7 @@
     }
     /* Add this to styles.css */
     a {
-      color: #FCDDF2;
+      color: #CF8E80;
       text-decoration: none;
     }
     a:hover {
@@ -20,7 +20,7 @@
       color: #916953;
     }
     a:active {
-      color: #FCB5B5;
+      color: #CF8E80;
     }
     section {
       border: 2px solid #000; /* Black border */
