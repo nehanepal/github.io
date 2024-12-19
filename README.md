@@ -50,6 +50,8 @@ This experimental setup will enable us to study the fundamental interactions and
     <div class="project">
       <h3>Rep Counter</h3>
       For my design class, I maintained a comprehensive record of all my projects, including drawings, sketches, invention ideas, circuitry, SolidWorks designs, and the final project. The final project, which won the "Most Technical Project" award in the class, is showcased on pages 31-38 of the slideshow, accompanied by a video.
+      <p> <a href="Final Project.mp4">Project Video</a> </p>
+      <p> <a href="DESIGN PORTFOLIO.pdf">Design Notebook</a> </p>
       </div>
     <div class="project">
         <h3>Air Motor</h3>
