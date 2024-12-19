@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="styles.css">
   <style>
     body {
-      background-color: #FCB5B5; 
+      background-color: #f0f8ff; 
     }
     /* Add this to styles.css */
     a {
