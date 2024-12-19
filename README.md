@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="styles.css">
   <style>
     body {
-      background-color: #f0f8ff; 
+      background-color: #FCB5B5; 
     }
     /* Add this to styles.css */
     a {
@@ -15,12 +15,6 @@
     a:hover {
       color: #CF8E80;
       text-decoration: underline;
-    }
-    a:visited {
-      color: #916953;
-    }
-    a:active {
-      color: #CF8E80;
     }
     section {
       border: 2px solid #000; /* Black border */
