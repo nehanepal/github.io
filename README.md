@@ -21,7 +21,7 @@
       border: 2px solid #000; /* Black border */
       border-radius: 10px; /* Rounded corners */
       padding: 20px; /* Space inside the border */
-      margin: 20px 0; /* Space between sections */
+      margin: 20px; /* Space between sections */
       background-color: #ffffff; /* Optional: Add background color */
     }
     h2 {
