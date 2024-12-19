@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="styles.css">
   <style>
     body {
+      font-family: Georgia, sans-serif;
       background-color: #f0f8ff; 
     }
   </style>
@@ -15,9 +16,9 @@
     <nav>
     <h1 style="font-size: 4rem; color: #000000;">NEHA NEPAL</h1>
       <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href= "#research">Research</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About Me</a></li> 
+        <li><a href= "#research">Research</a></li> 
+        <li><a href="#projects">Projects</a></li> 
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
