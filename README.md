@@ -41,10 +41,6 @@
     </nav>
   </header>
   <img width="427" alt="pic" src="https://github.com/user-attachments/assets/41b5d783-4503-4090-8276-ca2ff92d60aa" />
-
-<img width="438" alt="pic2" src="https://github.com/user-attachments/assets/d5c7212c-d2f3-44f4-ab31-db80a77d8716" />
-
-  <img width="300" alt="picture" src="https://github.com/user-attachments/assets/66623dbf-6f83-4f76-a629-317a79cafd85" />
   <section id="about">
     <h2>About Me</h2>
     <p>Hi! My name is Neha Nepal and I am a third year Mechanical Engineering Student at the University of California, Santa Barbara. I am particularly interested in sustainable energy solutions and optimizing systems for energy efficiency, particularly in the field of aerospace engineering. </p>
