@@ -53,6 +53,15 @@
   </section>
   <section id="projects">
     <h2>Projects</h2>
+     <div class="project">
+      <h3>Automatic Window Washer</h3>
+      <div style="text-align: center;">
+<img width="600" alt="Untitled" src="https://github.com/user-attachments/assets/43d99ee1-b701-497a-b4f0-d361d58dc79f" />
+         </div>
+      Automated washer
+      <p> <a href="billiard__Copy_.pdf">Download Project Report</a> </p>
+      <p> <a href="Untitled.mov">Download Simulation Video</a> </p>
+    </div>
     <div class="project">
       <h3>Coding Projects (Matlab and Python)</h3>
       <div style="text-align: center;">
