@@ -48,15 +48,7 @@
     <h2>About Me</h2>
     <p>Hi! My name is Neha Nepal, and I am a third-year Mechanical Engineering student at the University of California, Santa Barbara. I was born in Nepal and moved to the United States when I was seven years old. UCSB had been my dream school since my freshman year of high school, but by senior year, it became my third choice. Initially, I applied to most schools with plans to pursue aerospace engineering. However, after visiting UCSB, I realized it was the perfect fit for me and chose it over my other options. Because UCSB doesn’t offer an aerospace engineering program, I enrolled in Mechanical Engineering and have thrived in the program. Meeting peers with interests ranging from bioengineering to mechatronics has broadened my perspective and diversified my interests. While I remain passionate about aerospace engineering, my focus has expanded to include sustainable energy solutions and optimizing systems for energy efficiency within the field. 
   <section id="research">
-    <h2>Research</h2>
-    <p>As an undergraduate research assistant at FESLab, I contribute to the development of coatings aimed at reducing drag on boats to enhance speed and efficiency. My current focus is on an RC boat, which we are equipping with telemetry, GPS, and other data acquisition tools. By conducting test runs and analyzing power output versus velocity, we aim to refine our understanding of drag reduction mechanisms and explore how these findings can be applied to larger-scale vessels.
-
-A key challenge in drag reduction for superhydrophobic surfaces (SHS) is the inconsistent performance observed in turbulent flow conditions, which are critical for real-world applications like ships and submarines. Prior research suggests that trace amounts of surfactants—unavoidable in environmental and large-scale settings—can negate the drag-reducing benefits of SHS by introducing Marangoni stresses.
-
-Our work involves both experimental and computational approaches to investigate this phenomenon. We analyze how surfactants affect flow dynamics over textured SHS in microchannels, simulating conditions found in viscous sublayers. Our experiments with micro-PIV imaging reveal that even minimal surfactant concentrations drastically reduce slip velocity, limiting the effectiveness of SHS coatings.
-
-By bridging small-scale experimental findings with real-world applications, this research seeks to improve our understanding of drag reduction strategies and optimize surface treatments for enhanced maritime performance.
-
+    
 </p>
   </section>
   <section id="projects">
