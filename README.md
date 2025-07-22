@@ -74,6 +74,10 @@ My primary role was leading the design of the fluid dispensing system. This invo
 One of the major challenges was balancing compactness with mechanical stability, particularly as we scaled down the design for residential window sizes. The team iterated on bracket designs, friction reduction techniques, and water flow control to optimize performance.
 
 We presented our working physical prototype at the UCSB Junior Design Fair, where we demonstrated the engineering process and final product to peers, faculty, and industry professionals. The project showcased not only our technical capabilities, but also our ability to adapt the problem scope based on research and market viability.
+<p> <a href="x.png">Download Project Poster</a> </p>
+<p> <a href="New_ME_153_final_project (2) (2).pdf">Download Project Report</a> </p>
+<p> <a href="Safe Operating Procedure.pdf">Download Project Report</a> </p>
+
 </div>
     <div class="project">
       <h3>Coding Projects (Matlab and Python)</h3>
