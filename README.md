@@ -35,7 +35,7 @@
     <h1 style="font-size: 4rem; color: #003459;">NEHA NEPAL</h1>
       <ul>
         <li><a href="#about">About Me</a></li> 
-        <li><a href= "#research">Research</a></li> 
+        <li><a href= "#research">Internship & Professional Experience</a></li> 
         <li><a href="#projects">Projects</a></li> 
         <li><a href="#contact">Contact</a></li>
       </ul>
