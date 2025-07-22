@@ -35,7 +35,7 @@
     <h1 style="font-size: 4rem; color: #003459;">NEHA NEPAL</h1>
       <ul>
         <li><a href="#about">About Me</a></li> 
-        <li><a href= "#research">Internship & Professional Experience</a></li> 
+        <li><a href= "#internship">Internship & Professional Experience</a></li> 
         <li><a href="#projects">Projects</a></li> 
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -46,9 +46,11 @@
   </div>
   <section id="about">
     <h2>About Me</h2>
-    <p>Hi! My name is Neha Nepal, and I am a third-year Mechanical Engineering student at the University of California, Santa Barbara. I was born in Nepal and moved to the United States when I was seven years old. UCSB had been my dream school since my freshman year of high school, but by senior year, it became my third choice. Initially, I applied to most schools with plans to pursue aerospace engineering. However, after visiting UCSB, I realized it was the perfect fit for me and chose it over my other options. Because UCSB doesn’t offer an aerospace engineering program, I enrolled in Mechanical Engineering and have thrived in the program. Meeting peers with interests ranging from bioengineering to mechatronics has broadened my perspective and diversified my interests. While I remain passionate about aerospace engineering, my focus has expanded to include sustainable energy solutions and optimizing systems for energy efficiency within the field. 
-  <section id="research">
-    
+    <p>Hi! My name is Neha Nepal, and I am a third-year Mechanical Engineering student at the University of California, Santa Barbara. I was born in Nepal and moved to the United States when I was seven years old. UCSB had been my dream school since my freshman year of high school, but by senior year, it became my third choice. Initially, I applied to most schools with plans to pursue aerospace engineering. However, after visiting UCSB, I realized it was the perfect fit for me and chose it over my other options. Because UCSB doesn’t offer an aerospace engineering program, I enrolled in Mechanical Engineering and have thrived in the program. Meeting peers with interests ranging from bioengineering to mechatronics has broadened my perspective and diversified my interests. While I remain passionate about aerospace engineering, my focus has expanded to include sustainable energy solutions and optimizing systems for energy efficiency within the field.    
+  <section id="internship">
+    <h2>Internship & Professional Experience</h2>
+    <img width="600" alt="wam.webp" src="x.png" />
+  </section>
 
   </section>
   <section id="projects">
