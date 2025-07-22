@@ -96,6 +96,7 @@ We presented our working physical prototype at the UCSB Junior Design Fair, wher
 <p> <a href="New_ME_153_final_project (2) (2).pdf">Project Report</a> </p>
 <p> <a href="Safe Operating Procedure.pdf">Project Report</a> </p>
  </section>
+ </section>
 </div>
     <div class="project">
       <h3>Coding Projects (Matlab and Python)</h3>
@@ -120,14 +121,14 @@ We presented our working physical prototype at the UCSB Junior Design Fair, wher
       In this project, I designed and built a fully operational air motor, utilizing a range of machining tools and techniques. I operated band saws for cutting raw stock and used Haas vertical mills to precisely cut and drill key motor components. Additionally, I demonstrated machining proficiency by working with lathes to shape, sand, and drill spherical components. After assembly, I achieved an air motor speed of 2800 RPM, surpassing the expected performance by 400 RPM. I conducted thorough performance tests to ensure the motor met all design specifications and ran efficiently. Throughout the project, I documented the process, including design iterations and troubleshooting, providing a comprehensive record of the build.
       </div>
   </section>
-
+</section>
 
   <section id="contact">
     <h2>Contact</h2>
     <p><a href="mailto:nepalneha1@gmail.com">nepalneha1@gmail.com</a></p>
     <p><a href="www.linkedin.com/in/nehanepal/" target="_blank">My LinkedIn Profile</a></p>
   </section>
-
+</section>
   <footer>
     <p>&copy; 2024 Neha Nepal. All rights reserved.</p>
   </footer>
