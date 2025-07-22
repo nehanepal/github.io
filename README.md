@@ -74,9 +74,9 @@ My primary role was leading the design of the fluid dispensing system. This invo
 One of the major challenges was balancing compactness with mechanical stability, particularly as we scaled down the design for residential window sizes. The team iterated on bracket designs, friction reduction techniques, and water flow control to optimize performance.
 
 We presented our working physical prototype at the UCSB Junior Design Fair, where we demonstrated the engineering process and final product to peers, faculty, and industry professionals. The project showcased not only our technical capabilities, but also our ability to adapt the problem scope based on research and market viability.
-<p> <a href="x.png">Download Project Poster</a> </p>
-<p> <a href="New_ME_153_final_project (2) (2).pdf">Download Project Report</a> </p>
-<p> <a href="Safe Operating Procedure.pdf">Download Project Report</a> </p>
+<p> <a href="x.png">Project Poster</a> </p>
+<p> <a href="New_ME_153_final_project (2) (2).pdf">Project Report</a> </p>
+<p> <a href="Safe Operating Procedure.pdf">Project Report</a> </p>
 
 </div>
     <div class="project">
@@ -85,7 +85,7 @@ We presented our working physical prototype at the UCSB Junior Design Fair, wher
 <img width="600" alt="Untitled" src="https://github.com/user-attachments/assets/43d99ee1-b701-497a-b4f0-d361d58dc79f" />
          </div>
       The Billiard Simulation Project simulates the motion and collision dynamics of two balls (one blue and one red) in a confined space using MATLAB. The simulation takes into account various forces, including gravity, drag, and friction, to model the motion of the balls. Using principles of physics, the code calculates the velocities, positions, and collision responses of the balls when they hit walls or each other, accounting for energy loss due to damping and friction. The project also includes collision handling with walls and between the balls, using velocity predictions and adjusting them based on the impacts. This was my work on the project.
-      <p> <a href="billiard__Copy_.pdf">Download Project Report</a> </p>
+      <p> <a href="billiard__Copy_.pdf">Project Report</a> </p>
       <p> <a href="Untitled.mov">Download Simulation Video</a> </p>
     </div>
     <div class="project">
