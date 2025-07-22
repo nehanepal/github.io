@@ -77,7 +77,7 @@ We presented our working physical prototype at the UCSB Junior Design Fair, wher
 <p> <a href="x.png">Project Poster</a> </p>
 <p> <a href="New_ME_153_final_project (2) (2).pdf">Project Report</a> </p>
 <p> <a href="Safe Operating Procedure.pdf">Project Report</a> </p>
-
+ </section>
 </div>
     <div class="project">
       <h3>Coding Projects (Matlab and Python)</h3>
