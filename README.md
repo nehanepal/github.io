@@ -49,19 +49,30 @@
     <p>Hi! My name is Neha Nepal, and I am a third-year Mechanical Engineering student at the University of California, Santa Barbara. I was born in Nepal and moved to the United States when I was seven years old. UCSB had been my dream school since my freshman year of high school, but by senior year, it became my third choice. Initially, I applied to most schools with plans to pursue aerospace engineering. However, after visiting UCSB, I realized it was the perfect fit for me and chose it over my other options. Because UCSB doesn’t offer an aerospace engineering program, I enrolled in Mechanical Engineering and have thrived in the program. Meeting peers with interests ranging from bioengineering to mechatronics has broadened my perspective and diversified my interests. While I remain passionate about aerospace engineering, my focus has expanded to include sustainable energy solutions and optimizing systems for energy efficiency within the field. 
   <section id="research">
     
-</p>
+
   </section>
   <section id="projects">
     <h2>Projects</h2>
      <div class="project">
       <h3>Automatic Window Washer</h3>
       <div style="text-align: center;">
-<img width="600" alt="Untitled" src="https://github.com/user-attachments/assets/43d99ee1-b701-497a-b4f0-d361d58dc79f" />
          </div>
-      Automated washer
-      <p> <a href="billiard__Copy_.pdf">Download Project Report</a> </p>
-      <p> <a href="Untitled.mov">Download Simulation Video</a> </p>
-    </div>
+ This project began as a concept to eliminate the safety risks faced by human window washers working on skyscrapers. However, after researching existing commercial solutions, we shifted focus to create a more practical and impactful product: an automated window washing system for residential homes. The goal was to design a permanent, cost-effective system that could be installed once and save homeowners thousands of dollars in window cleaning services over time.
+
+Our final design utilized a T-bar gantry mechanism, driven by a stepper motor and motor driver, to move the cleaning module across the window’s surface both horizontally and vertically. We developed multiple iterations of the wiper and rail system, using CAD modeling (SolidWorks) and 3D-printed prototypes to test and refine functionality.
+
+My primary role was leading the design of the fluid dispensing system. This involved:
+
+- Calculating the required flow rate and nozzle pressure for effective coverage.
+
+- Analyzing head loss through the tubing to select an appropriate pump.
+
+- Integrating the fluid system with the motion system to ensure synchronized cleaning action.
+
+One of the major challenges was balancing compactness with mechanical stability, particularly as we scaled down the design for residential window sizes. The team iterated on bracket designs, friction reduction techniques, and water flow control to optimize performance.
+
+We presented our working physical prototype at the UCSB Junior Design Fair, where we demonstrated the engineering process and final product to peers, faculty, and industry professionals. The project showcased not only our technical capabilities, but also our ability to adapt the problem scope based on research and market viability.
+</div>
     <div class="project">
       <h3>Coding Projects (Matlab and Python)</h3>
       <div style="text-align: center;">
