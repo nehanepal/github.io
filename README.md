@@ -49,7 +49,23 @@
     <p>Hi! My name is Neha Nepal, and I am a third-year Mechanical Engineering student at the University of California, Santa Barbara. I was born in Nepal and moved to the United States when I was seven years old. UCSB had been my dream school since my freshman year of high school, but by senior year, it became my third choice. Initially, I applied to most schools with plans to pursue aerospace engineering. However, after visiting UCSB, I realized it was the perfect fit for me and chose it over my other options. Because UCSB doesn’t offer an aerospace engineering program, I enrolled in Mechanical Engineering and have thrived in the program. Meeting peers with interests ranging from bioengineering to mechatronics has broadened my perspective and diversified my interests. While I remain passionate about aerospace engineering, my focus has expanded to include sustainable energy solutions and optimizing systems for energy efficiency within the field.    
   <section id="internship">
     <h2>Internship & Professional Experience</h2>
-    <img width="600" alt="wam.webp" src="x.png" />
+    <div class="internship">
+      <h3>Western Allied Mechanical - Project Engineering Intern</h3>
+      <div style="text-align: center;">
+    <img width="600" alt="wam.webp" src="wam.webp" />
+With a strong interest in heat transfer and fluid dynamics, I sought out an internship that would allow me to apply these concepts in real-world settings. While I had initially leaned toward aerospace engineering, a conversation with an HVAC professional helped me realize that the HVAC industry offered many of the same technical challenges-especially in airflow, energy systems, and thermal control—within a practical and fast paced environment.
+
+As a Project Engineering Intern at Western Allied Mechanical, I supported over ten active HVAC projects, primarily in high stakes environments such as hospitals and laboratories. This experience gave me insight into both the engineering and business aspects of project delivery, and it clarified my passion for the technical side of engineering.
+Some of my roles included: 
+- Assisted in reviewing and redlining mechanical plans, saving the project team over 30 hours/week by identifying early discrepancies and clarifying installation requirements.
+
+- Conducted weekly job site audits on projects valued between $2–3 million, checking for compliance with mechanical specs, code, and installation quality.
+
+- Collaborated with engineers to redesign and recreate mechanical drawings, preventing an estimated $50,000 in potential rework due to coordination clashes or design gaps.
+
+- Streamlined processes for RFIs (Requests for Information) and submittals, and managed procurement logs, helping maintain on-time material delivery and project alignment.
+
+Throughout the internship, I found myself drawn to understanding how the systems worked, from airflow routing to energy efficiency design choices. While I appreciated the exposure to business and management, it was the mechanical problem-solving that confirmed my desire to pursue a career grounded in engineering fundamentals.
   </section>
 
   </section>
