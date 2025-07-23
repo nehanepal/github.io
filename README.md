@@ -180,7 +180,7 @@ This project strengthened my fluency in aerodynamic modeling and mechanical simu
 <div class="project">
         <h3>NaviCane</h3>
       <div style="text-align: center;">
-      <img width="751" alt="air motor" src="https://github.com/user-attachments/assets/1b0f27f2-918e-43b5-a6cb-394c88038746" />
+      <img width="751" alt="air motor" src="navicane.png" />
          </div>
 As part of a technology management course, I pitched an original venture idea to a class of 50 students. Out of all proposals, mine was one of six selected to move forward, positioning me as the CEO of our mock company. I wanted the venture to reflect both my engineering background and a cause I cared deeply about: improving assistive mobility for the blind.
 
@@ -189,6 +189,8 @@ I initiated extensive research by interviewing professors involved in assistive 
 Throughout the project, I led the team in drafting a business plan, defining internal roles through a formal contract, and delivering progress pitches to our peers and instructor. As the project lead, I was responsible for organizing meetings, keeping team members accountable, and making difficult decisions to keep the venture on track.
 
 The project was a success, with our team consistently earning A’s on all business updates and presentations. It also reinforced my passion for applying engineering skills to socially impactful problems.
+      <p> <a href="Final Project.mp4">Project Video</a> </p>
+      <p> <a href="DESIGN PORTFOLIO.pdf">Design Notebook</a> </p>
       </div>
   </section>
 </section>
