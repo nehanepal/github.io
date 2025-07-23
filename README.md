@@ -38,6 +38,7 @@
         <li><a href="#projects">Projects</a></li> 
         <li><a href="#contact">Contact</a></li>
         <li><a href= "#internship&prof">Internship & Professional Experience</a></li> 
+        <li><a href= "#relevantcoursework">Relevant Coursework> 
       </ul>
     </nav>
   </header>
