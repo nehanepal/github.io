@@ -114,6 +114,17 @@ We presented our working physical prototype at the UCSB Junior Design Fair, wher
 <p> <a href="Safe Operating Procedure.pdf">Project Report</a> </p>
  </section>
  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+     <div class="project">
+      <h3>Airfoil Optimization</h3>
+      <div style="text-align: center;">
+<img width="600" alt="Untitled" src="x.png" />
+         </div>
+         
+ 
+ </section>
 </div>
     <div class="project">
       <h3>Coding Projects (Matlab and Python)</h3>
@@ -147,5 +158,5 @@ We presented our working physical prototype at the UCSB Junior Design Fair, wher
   </section>
 </section>
   <footer>
-    <p>&copy; 2024 Neha Nepal. All rights reserved.</p>
+    <p>&copy; 2023 Neha Nepal. All rights reserved.</p>
   </footer>
