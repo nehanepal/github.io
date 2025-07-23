@@ -69,6 +69,14 @@ Throughout the internship, I found myself drawn to understanding how the systems
   </section>
 
   </section>
+   <div class="internship">
+      <h3>Target - Guest Advocate</h3>
+      <div style="text-align: center;">
+    <img width="600" alt="wam.webp" src="wam.webp" />
+Although I only worked at Target for two months, it was a valuable job that introduced me to the importance of self-management in a solo work environment. I was responsible for independently operating my cash register, assisting customers, managing my breaks, and maintaining punctuality-all without direct supervision. This experience taught me a great deal about accountability and reliability. I maintained perfect register accuracy throughout my time there, with no discrepancies or concerns raised by management. Initally I had chosen to work there because I knew it would be easier for me to get hired at a Target near UCSB if I had previously worked there, but, ultimately I chose to focus on my transition into college. The role, however, laid a strong foundation for my work ethic and time management skills.
+  </section>
+
+  </section>
   <section id="projects">
     <h2>Projects</h2>
      <div class="project">
