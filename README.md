@@ -72,17 +72,26 @@ Throughout the internship, I found myself drawn to understanding how the systems
    <div class="internship">
       <h3>Target - Guest Advocate</h3>
       <div style="text-align: center;">
-    <img width="600" alt="wam.webp" src="wam.webp" />
+    <img width="300" alt="target.webp" src="target.webp" />
 Although I only worked at Target for two months, it was a valuable job that introduced me to the importance of self-management in a solo work environment. I was responsible for independently operating my cash register, assisting customers, managing my breaks, and maintaining punctuality-all without direct supervision. This experience taught me a great deal about accountability and reliability. I maintained perfect register accuracy throughout my time there, with no discrepancies or concerns raised by management. Initally I had chosen to work there because I knew it would be easier for me to get hired at a Target near UCSB if I had previously worked there, but, ultimately I chose to focus on my transition into college. The role, however, laid a strong foundation for my work ethic and time management skills.
   </section>
 
+  </section>
+   <div class="internship">
+      <h3>Panda Express - Person In Charge/Front of House</h3>
+      <div style="text-align: center;">
+    <img width="300" alt="pe.webp" src="pe.webp" />
+I began working at Panda Express during my junior year of high school, and over the course of nine months, I progressed from a Front of House assistant to being promoted to Person in Charge; a role typically held by older, more experienced staff. Starting with basic responsibilities like taking orders, I quickly gained the trust of management and took on greater responsibilities, including closing the store independently, handling end of day finances, leading the closing team, supporting kitchen operations, and holding team members accountable for register discrepancies. I earned two raises during my time there, reflecting my strong work ethic and leadership. I eventually chose to leave the position to focus on AP exams and completing my senior year, but the experience gave me a deep appreciation for teamwork, accountability, and growth in a fast paced environment.
+
+  </section>
+        
   </section>
   <section id="projects">
     <h2>Projects</h2>
      <div class="project">
       <h3>Automatic Window Washer</h3>
       <div style="text-align: center;">
-<img width="600" alt="Untitled" src="target.webp" />
+<img width="600" alt="Untitled" src="x.png" />
          </div>
        
  This project began as a concept to eliminate the safety risks faced by human window washers working on skyscrapers. However, after researching existing commercial solutions, we shifted focus to create a more practical and impactful product: an automated window washing system for residential homes. The goal was to design a permanent, cost-effective system that could be installed once and save homeowners thousands of dollars in window cleaning services over time.
