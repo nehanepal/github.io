@@ -95,105 +95,119 @@
   </div>
 </section>
 
- 
-  <section id="projects">
-    <h2>Projects</h2>
-     <div class="project">
-      <h3>Automatic Window Washer</h3>
-      <div style="text-align: center;">
-<img width="600" alt="Untitled" src="x.png" />
-         </div>
-       
- This project began as a concept to eliminate the safety risks faced by human window washers working on skyscrapers. However, after researching existing commercial solutions, we shifted focus to create a more practical and impactful product: an automated window washing system for residential homes. The goal was to design a permanent, cost-effective system that could be installed once and save homeowners thousands of dollars in window cleaning services over time.
+<section id="projects">
+  <h2>Projects</h2>
 
-Our final design utilized a T-bar gantry mechanism, driven by a stepper motor and motor driver, to move the cleaning module across the window’s surface both horizontally and vertically. We developed multiple iterations of the wiper and rail system, using CAD modeling (SolidWorks) and 3D-printed prototypes to test and refine functionality.
-
-My primary role was leading the design of the fluid dispensing system. This involved:
-
-- Calculating the required flow rate and nozzle pressure for effective coverage.
-
-- Analyzing head loss through the tubing to select an appropriate pump.
-
-- Integrating the fluid system with the motion system to ensure synchronized cleaning action.
-
-One of the major challenges was balancing compactness with mechanical stability, particularly as we scaled down the design for residential window sizes. The team iterated on bracket designs, friction reduction techniques, and water flow control to optimize performance.
-
-We presented our working physical prototype at the UCSB Junior Design Fair, where we demonstrated the engineering process and final product to peers, faculty, and industry professionals. The project showcased not only our technical capabilities, but also our ability to adapt the problem scope based on research and market viability.
-<p> <a href="x.png">Project Poster</a> </p>
-<p> <a href="New_ME_153_final_project (2) (2).pdf">Project Report</a> </p>
-<p> <a href="Safe Operating Procedure.pdf">Project Report</a> </p>
- </section>
- </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-     <div class="project">
-      <h3>Airfoil Optimization</h3>
-      <div style="text-align: center;">
-<img width="600" alt="Untitled" src="x.png" />
-         </div>
-       As part of a three-person team, I worked the mechanical analysis and modeling of a horizontal-axis wind turbine blade optimized for 12 m/s rated wind speed. We used the S8037 airfoil to design a four-blade rotor system with a 50 meter diameter and a tip speed ratio of 6.
-
-Key Contributions:
-
-- Used MATLAB to perform aerodynamic calculations, including Reynolds number estimation, chord and pitch optimization, and axial induction factor distribution.
-
-- Developed and integrated Blade Element Momentum (BEM) theory to calculate power, torque, and thrust coefficients, validating convergence through iterative modeling.
-
-- Designed and refined the 3D turbine blade in SolidWorks, then scaled the model for physical stress testing under different material and wind conditions.
-
-- Conducted simulations to determine critical deflection wind speed and root bending moment, using ABS plastic as a scale model material.
-
-- Modeled turbine wake behavior using Park, Revised Park, and Entrainment models to assess array performance for a 10-turbine farm layout.
-
-This project strengthened my fluency in aerodynamic modeling and mechanical simulation, and deepened my interest in sustainable power generation and energy system optimization.
-
-
-       <p> <a href="Wind_and_Tidal_Project (5) (2).pdf">Project Report</a> </p>
- 
- </section>
-</div>
-    <div class="project">
-      <h3>Coding Projects (Matlab and Python)</h3>
-      <div style="text-align: center;">
-<img width="600" alt="Untitled" src="https://github.com/user-attachments/assets/43d99ee1-b701-497a-b4f0-d361d58dc79f" />
-         </div>
-      The Billiard Simulation Project simulates the motion and collision dynamics of two balls (one blue and one red) in a confined space using MATLAB. The simulation takes into account various forces, including gravity, drag, and friction, to model the motion of the balls. Using principles of physics, the code calculates the velocities, positions, and collision responses of the balls when they hit walls or each other, accounting for energy loss due to damping and friction. The project also includes collision handling with walls and between the balls, using velocity predictions and adjusting them based on the impacts. This was my work on the project.
-      <p> <a href="billiard__Copy_.pdf">Project Report</a> </p>
-      <p> <a href="Untitled.mov">Download Simulation Video</a> </p>
+  <div class="project">
+    <h3>Automatic Window Washer</h3>
+    <div style="text-align: center;">
+      <img width="600" alt="Automatic Window Washer" src="x.png" />
     </div>
-    <div class="project">
-      <h3>Rep Counter</h3>
-      For my design class, I maintained a comprehensive record of all my projects, including drawings, sketches, invention ideas, circuitry, SolidWorks designs, and the final project. The final project, which won the "Most Technical Project" award in the class, is showcased on pages 31-38 of the slideshow, accompanied by a video.
-      <p> <a href="Final Project.mp4">Project Video</a> </p>
-      <p> <a href="DESIGN PORTFOLIO.pdf">Design Notebook</a> </p>
-      </div>
-    <div class="project">
-        <h3>Air Motor</h3>
-      <div style="text-align: center;">
-      <img width="751" alt="air motor" src="https://github.com/user-attachments/assets/1b0f27f2-918e-43b5-a6cb-394c88038746" />
-         </div>
-      In this project, I designed and built a fully operational air motor, utilizing a range of machining tools and techniques. I operated band saws for cutting raw stock and used Haas vertical mills to precisely cut and drill key motor components. Additionally, I demonstrated machining proficiency by working with lathes to shape, sand, and drill spherical components. After assembly, I achieved an air motor speed of 2800 RPM, surpassing the expected performance by 400 RPM. I conducted thorough performance tests to ensure the motor met all design specifications and ran efficiently. Throughout the project, I documented the process, including design iterations and troubleshooting, providing a comprehensive record of the build.
-      </div>
-  </section>
+    <p>
+      This project began as a concept to eliminate the safety risks faced by human window washers working on skyscrapers. However, after researching existing commercial solutions, we shifted focus to create a more practical and impactful product: an automated window washing system for residential homes. The goal was to design a permanent, cost-effective system that could be installed once and save homeowners thousands of dollars in window cleaning services over time.
+    </p>
+    <p>
+      Our final design utilized a T-bar gantry mechanism, driven by a stepper motor and motor driver, to move the cleaning module across the window’s surface both horizontally and vertically. We developed multiple iterations of the wiper and rail system, using CAD modeling (SolidWorks) and 3D-printed prototypes to test and refine functionality.
+    </p>
+    <p>
+      My primary role was leading the design of the fluid dispensing system. This involved:
+    </p>
+    <ul>
+      <li>Calculating the required flow rate and nozzle pressure for effective coverage.</li>
+      <li>Analyzing head loss through the tubing to select an appropriate pump.</li>
+      <li>Integrating the fluid system with the motion system to ensure synchronized cleaning action.</li>
+    </ul>
+    <p>
+      One of the major challenges was balancing compactness with mechanical stability, particularly as we scaled down the design for residential window sizes. The team iterated on bracket designs, friction reduction techniques, and water flow control to optimize performance.
+    </p>
+    <p>
+      We presented our working physical prototype at the UCSB Junior Design Fair, where we demonstrated the engineering process and final product to peers, faculty, and industry professionals. The project showcased not only our technical capabilities, but also our ability to adapt the problem scope based on research and market viability.
+    </p>
+    <p><a href="x.png">Project Poster</a></p>
+    <p><a href="New_ME_153_final_project (2) (2).pdf">Project Report</a></p>
+    <p><a href="Safe Operating Procedure.pdf">Safe Operating Procedure</a></p>
+  </div>
+
+  <div class="project">
+    <h3>Airfoil Optimization</h3>
+    <div style="text-align: center;">
+      <img width="600" alt="Airfoil Optimization" src="x.png" />
+    </div>
+    <p>
+      As part of a three-person team, I led the mechanical analysis and modeling of a horizontal-axis wind turbine blade optimized for 12 m/s rated wind speed. We used the S8037 airfoil to design a four-blade rotor system with a 50-meter diameter and a tip speed ratio of 6.
+    </p>
+    <ul>
+      <li>Used MATLAB to perform aerodynamic calculations, including Reynolds number estimation, chord and pitch optimization, and axial induction factor distribution.</li>
+      <li>Developed and integrated Blade Element Momentum (BEM) theory to calculate power, torque, and thrust coefficients, validating convergence through iterative modeling.</li>
+      <li>Designed and refined the 3D turbine blade in SolidWorks, then scaled the model for physical stress testing under different material and wind conditions.</li>
+      <li>Conducted simulations to determine critical deflection wind speed and root bending moment, using ABS plastic as a scale model material.</li>
+      <li>Modeled turbine wake behavior using Park, Revised Park, and Entrainment models to assess array performance for a 10-turbine farm layout.</li>
+    </ul>
+    <p>
+      This project strengthened my fluency in aerodynamic modeling and mechanical simulation, and deepened my interest in sustainable power generation and energy system optimization.
+    </p>
+    <p><a href="Wind_and_Tidal_Project (5) (2).pdf">Project Report</a></p>
+  </div>
+
+  <div class="project">
+    <h3>Coding Projects (MATLAB and Python)</h3>
+    <div style="text-align: center;">
+      <img width="600" alt="Coding Project" src="https://github.com/user-attachments/assets/43d99ee1-b701-497a-b4f0-d361d58dc79f" />
+    </div>
+    <p>
+      The Billiard Simulation Project simulates the motion and collision dynamics of two balls (one blue and one red) in a confined space using MATLAB. The simulation takes into account various forces, including gravity, drag, and friction, to model the motion of the balls. It calculates the velocities, positions, and collision responses of the balls when they hit walls or each other, accounting for energy loss due to damping and friction.
+    </p>
+    <p>
+      I developed the collision detection and velocity response system using physics-based algorithms, ensuring that both energy loss and momentum conservation were accounted for.
+    </p>
+    <p><a href="billiard__Copy_.pdf">Project Report</a></p>
+    <p><a href="Untitled.mov">Simulation Video</a></p>
+  </div>
+
+  <div class="project">
+    <h3>Rep Counter</h3>
+    <p>
+      For my design class, I maintained a comprehensive record of all my projects, including drawings, sketches, invention ideas, circuitry, SolidWorks designs, and the final project. The final project, which won the "Most Technical Project" award in the class, is showcased on pages 31–38 of the design portfolio, accompanied by a working video demonstration.
+    </p>
+    <p><a href="Final Project.mp4">Project Video</a></p>
+    <p><a href="DESIGN PORTFOLIO.pdf">Design Notebook</a></p>
+  </div>
+
+  <div class="project">
+    <h3>Air Motor</h3>
+    <div style="text-align: center;">
+      <img width="751" alt="Air Motor" src="https://github.com/user-attachments/assets/1b0f27f2-918e-43b5-a6cb-394c88038746" />
+    </div>
+    <p>
+      In this project, I designed and built a fully operational air motor, utilizing a range of machining tools and techniques. I operated band saws for cutting raw stock and used Haas vertical mills to precisely cut and drill key motor components. Additionally, I demonstrated machining proficiency by working with lathes to shape, sand, and drill spherical components.
+    </p>
+    <p>
+      After assembly, I achieved an air motor speed of 2800 RPM, surpassing the expected performance by 400 RPM. I conducted thorough performance tests to ensure the motor met all design specifications and ran efficiently. Throughout the project, I documented the process, including design iterations and troubleshooting, providing a comprehensive record of the build.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>NaviCane</h3>
+    <div style="text-align: center;">
+      <img width="751" alt="NaviCane" src="navicane.png" />
+    </div>
+    <p>
+      As part of a technology management course, I pitched an original venture idea to a class of 50 students. Out of all proposals, mine was one of six selected to move forward, positioning me as the CEO of our mock company. I wanted the venture to reflect both my engineering background and a cause I cared deeply about: improving assistive mobility for the blind.
+    </p>
+    <p>
+      I conducted extensive research by interviewing professors in assistive tech, a blind faculty member, engineering students working on similar concepts, and staff at the Braille Institute of Santa Barbara. Their insights guided the product evolution—from an interactive vest to a more viable and user-friendly interactive cane.
+    </p>
+    <p>
+      I led the development of our business plan, drafted team contracts, organized regular meetings, and delivered multiple progress pitches. As project lead, I was responsible for setting direction, resolving conflicts, and holding the team accountable.
+    </p>
+    <p>
+      The project was a success, earning top marks on all deliverables and solidifying my passion for applying engineering to socially impactful challenges.
+    </p>
+    <p><a href="Business Plan.docx (1).pdf">Business Plan</a></p>
+    <p><a href="Real Navicane.pdf">Pitch Deck</a></p>
+  </div>
 </section>
-<div class="project">
-        <h3>NaviCane</h3>
-      <div style="text-align: center;">
-      <img width="751" alt="air motor" src="navicane.png" />
-         </div>
-As part of a technology management course, I pitched an original venture idea to a class of 50 students. Out of all proposals, mine was one of six selected to move forward, positioning me as the CEO of our mock company. I wanted the venture to reflect both my engineering background and a cause I cared deeply about: improving assistive mobility for the blind.
 
-I initiated extensive research by interviewing professors involved in assistive tech, engineering students developing similar solutions, a blind faculty member, and staff at the Braille Institute of Santa Barbara. Their feedback informed the product evolution: from an initial concept of an interactive vest to a more viable and user informed interactive cane.
-
-Throughout the project, I led the team in drafting a business plan, defining internal roles through a formal contract, and delivering progress pitches to our peers and instructor. As the project lead, I was responsible for organizing meetings, keeping team members accountable, and making difficult decisions to keep the venture on track.
-
-The project was a success, with our team consistently earning A’s on all business updates and presentations. It also reinforced my passion for applying engineering skills to socially impactful problems.
-      <p> <a href="Final Project.mp4">Project Video</a> </p>
-      <p> <a href="DESIGN PORTFOLIO.pdf">Design Notebook</a> </p>
-      </div>
-  </section>
-</section>
 
   <section id="contact">
     <h2>Contact</h2>
