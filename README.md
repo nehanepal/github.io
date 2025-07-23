@@ -1,4 +1,4 @@
-_<html lang="en">
+__<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,9 +36,9 @@ _<html lang="en">
       <ul>
         <li><a href="#about">About Me</a></li> 
         <li><a href="#projects">Projects</a></li> 
-        <li><a href="#contact">Contact</a></li>
         <li><a href= "#internship&prof">Internship & Professional Experience</a></li> 
         <li><a href= "#relevantcoursework">Relevant Coursework</a></li> 
+                <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -221,4 +221,5 @@ _<html lang="en">
   <footer>
     <p>&copy; 2023 Neha Nepal. All rights reserved.</p>
   </footer>
+_
 _
