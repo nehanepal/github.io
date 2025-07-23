@@ -132,7 +132,24 @@ We presented our working physical prototype at the UCSB Junior Design Fair, wher
       <div style="text-align: center;">
 <img width="600" alt="Untitled" src="x.png" />
          </div>
-         
+       As part of a three-person team, I worked the mechanical analysis and modeling of a horizontal-axis wind turbine blade optimized for 12 m/s rated wind speed. We used the S8037 airfoil to design a four-blade rotor system with a 50 meter diameter and a tip speed ratio of 6.
+
+Key Contributions:
+
+- Used MATLAB to perform aerodynamic calculations, including Reynolds number estimation, chord and pitch optimization, and axial induction factor distribution.
+
+- Developed and integrated Blade Element Momentum (BEM) theory to calculate power, torque, and thrust coefficients, validating convergence through iterative modeling.
+
+- Designed and refined the 3D turbine blade in SolidWorks, then scaled the model for physical stress testing under different material and wind conditions.
+
+- Conducted simulations to determine critical deflection wind speed and root bending moment, using ABS plastic as a scale model material.
+
+- Modeled turbine wake behavior using Park, Revised Park, and Entrainment models to assess array performance for a 10-turbine farm layout.
+
+This project strengthened my fluency in aerodynamic modeling and mechanical simulation, and deepened my interest in sustainable power generation and energy system optimization.
+
+
+       <p> <a href="Wind_and_Tidal_Project (5) (2).pdf">Project Report</a> </p>
  
  </section>
 </div>
@@ -157,6 +174,21 @@ We presented our working physical prototype at the UCSB Junior Design Fair, wher
       <img width="751" alt="air motor" src="https://github.com/user-attachments/assets/1b0f27f2-918e-43b5-a6cb-394c88038746" />
          </div>
       In this project, I designed and built a fully operational air motor, utilizing a range of machining tools and techniques. I operated band saws for cutting raw stock and used Haas vertical mills to precisely cut and drill key motor components. Additionally, I demonstrated machining proficiency by working with lathes to shape, sand, and drill spherical components. After assembly, I achieved an air motor speed of 2800 RPM, surpassing the expected performance by 400 RPM. I conducted thorough performance tests to ensure the motor met all design specifications and ran efficiently. Throughout the project, I documented the process, including design iterations and troubleshooting, providing a comprehensive record of the build.
+      </div>
+  </section>
+</section>
+<div class="project">
+        <h3>NaviCane</h3>
+      <div style="text-align: center;">
+      <img width="751" alt="air motor" src="https://github.com/user-attachments/assets/1b0f27f2-918e-43b5-a6cb-394c88038746" />
+         </div>
+As part of a technology management course, I pitched an original venture idea to a class of 50 students. Out of all proposals, mine was one of six selected to move forward, positioning me as the CEO of our mock company. I wanted the venture to reflect both my engineering background and a cause I cared deeply about: improving assistive mobility for the blind.
+
+I initiated extensive research by interviewing professors involved in assistive tech, engineering students developing similar solutions, a blind faculty member, and staff at the Braille Institute of Santa Barbara. Their feedback informed the product evolution: from an initial concept of an interactive vest to a more viable and user informed interactive cane.
+
+Throughout the project, I led the team in drafting a business plan, defining internal roles through a formal contract, and delivering progress pitches to our peers and instructor. As the project lead, I was responsible for organizing meetings, keeping team members accountable, and making difficult decisions to keep the venture on track.
+
+The project was a success, with our team consistently earning A’s on all business updates and presentations. It also reinforced my passion for applying engineering skills to socially impactful problems.
       </div>
   </section>
 </section>
