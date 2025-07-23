@@ -82,7 +82,7 @@ Although I only worked at Target for two months, it was a valuable job that intr
      <div class="project">
       <h3>Automatic Window Washer</h3>
       <div style="text-align: center;">
-<img width="600" alt="Untitled" src="x.png" />
+<img width="600" alt="Untitled" src="target.webp" />
          </div>
        
  This project began as a concept to eliminate the safety risks faced by human window washers working on skyscrapers. However, after researching existing commercial solutions, we shifted focus to create a more practical and impactful product: an automated window washing system for residential homes. The goal was to design a permanent, cost-effective system that could be installed once and save homeowners thousands of dollars in window cleaning services over time.
