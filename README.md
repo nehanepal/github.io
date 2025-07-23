@@ -35,9 +35,9 @@
     <h1 style="font-size: 4rem; color: #003459;">NEHA NEPAL</h1>
       <ul>
         <li><a href="#about">About Me</a></li> 
-        <li><a href= "#internship">Internship & Professional Experience</a></li> 
         <li><a href="#projects">Projects</a></li> 
         <li><a href="#contact">Contact</a></li>
+        <li><a href= "#internship&prof">Internship & Professional Experience</a></li> 
       </ul>
     </nav>
   </header>
@@ -164,7 +164,7 @@
 </section>
 
 
-<section id="internship">
+<section id="internship&prof">
   <h2>Internship & Professional Experience</h2>
 
   <div class="internship">
