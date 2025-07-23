@@ -215,14 +215,14 @@ ___<html lang="en">
     <li>Aerodynamics</li>
     <li>Dynamical Systems and Controls</li>
     <li>Dynamics</li>
-    <li>Engineering Graphics: Sketching, CAD and Conceptual Design– <a href="#rep-counter">View Related Project</a></li>
-    <li>Entrepreneurship - <a href="#navicane">View Related Project</a></li>
+    <li>Engineering Graphics: Sketching, CAD and Conceptual Design– <a href="#rep-counter">Associated Project</a></li>
+    <li>Entrepreneurship - <a href="#navicane">Associated Project</a></li>
     <li>Finite Element Analysis</li>
     <li>Fluid Mechanics I & II</li>
     <li>Heat Transfer I & II</li>
-    <li>Machine Learning - <a href="#codingprojects">View Related Project</a></li>
-    <li>Mathmatics of Engineering- <a href="#codingprojects">View Related Project</a></li>
-    <li>Mechanical Engineering Design – <a href="#automatic-window-washer">View Related Project</a></li>
+    <li>Machine Learning - <a href="#codingprojects">Associated Project</a></li>
+    <li>Mathmatics of Engineering- <a href="#codingprojects">Associated Project</a></li>
+    <li>Mechanical Engineering Design – <a href="#automatic-window-washer">Associated Project</a></li>
     <li>Mechatronics</li>
     <li>Statics</li>
     <li>Thermodynamics</li>
