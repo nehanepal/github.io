@@ -38,7 +38,7 @@ _<html lang="en">
         <li><a href="#projects">Projects</a></li> 
         <li><a href="#contact">Contact</a></li>
         <li><a href= "#internship&prof">Internship & Professional Experience</a></li> 
-        <li><a href= "#relevantcoursework">Relevant Coursework> 
+        <li><a href= "#relevantcoursework">Relevant Coursework</a></li> 
       </ul>
     </nav>
   </header>
@@ -209,7 +209,8 @@ _<html lang="en">
     <p>I earned two raises during my time there, reflecting my strong work ethic and leadership. I eventually chose to leave the position to focus on AP exams and completing my senior year, but the experience gave me a deep appreciation for teamwork, accountability, and growth in a fast-paced environment.</p>
   </div>
 </section>
-
+<section id="relevantcoursework">
+  <h2>Relevant Coursework</h2>
 
   <section id="contact">
     <h2>Contact</h2>
