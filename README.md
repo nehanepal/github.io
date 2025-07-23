@@ -46,7 +46,9 @@
   </div>
   <section id="about">
     <h2>About Me</h2>
-    <p>Hi! My name is Neha Nepal, and I am a third-year Mechanical Engineering student at the University of California, Santa Barbara. I was born in Nepal and moved to the United States when I was seven years old. UCSB had been my dream school since my freshman year of high school, but by senior year, it became my third choice. Initially, I applied to most schools with plans to pursue aerospace engineering. However, after visiting UCSB, I realized it was the perfect fit for me and chose it over my other options. Because UCSB doesn’t offer an aerospace engineering program, I enrolled in Mechanical Engineering and have thrived in the program. Meeting peers with interests ranging from bioengineering to mechatronics has broadened my perspective and diversified my interests. While I remain passionate about aerospace engineering, my focus has expanded to include sustainable energy solutions and optimizing systems for energy efficiency within the field.    
+    <p>Hi! My name is Neha Nepal, and I am a third-year Mechanical Engineering student at the University of California, Santa Barbara. I was born in Nepal and moved to the United States when I was seven years old. UCSB had been my dream school since my freshman year of high school, but by senior year, it became my third choice. Initially, I applied to most schools with plans to pursue aerospace engineering. However, after visiting UCSB, I realized it was the perfect fit for me and chose it over my other options. Because UCSB doesn’t offer an aerospace engineering program, I enrolled in Mechanical Engineering and have thrived in the program. Meeting peers with interests ranging from bioengineering to mechatronics has broadened my perspective and diversified my interests. While I remain passionate about aerospace engineering, my focus has expanded to include sustainable energy solutions and optimizing systems for energy efficiency within the field.   
+</section>
+  
   <section id="internship">
     <h2>Internship & Professional Experience</h2>
     <div class="internship">
