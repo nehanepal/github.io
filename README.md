@@ -1,4 +1,4 @@
-__<html lang="en">
+___<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,7 +54,7 @@ __<html lang="en">
   <section id="projects">
   <h2>Projects</h2>
 
-  <div class="project">
+  <div class="project" id="#automatic-window-washer">
     <h3>Automatic Window Washer</h3>
     <div style="text-align: center;">
       <img width="600" alt="Automatic Window Washer" src="x.png" />
@@ -84,7 +84,7 @@ __<html lang="en">
     <p><a href="Safe Operating Procedure.pdf">Safe Operating Procedure</a></p>
   </div>
 
-  <div class="project">
+  <div class="project" id="#airfoil-project">
     <h3>Airfoil Optimization</h3>
     <div style="text-align: center;">
       <img width="600" alt="Airfoil Optimization" src="airfoil.png" />
@@ -105,7 +105,7 @@ __<html lang="en">
     <p><a href="Wind_and_Tidal_Project (5) (2).pdf">Project Report</a></p>
   </div>
 
-  <div class="project">
+  <div class="project" id="#codingprojects">
     <h3>Coding Projects (MATLAB and Python)</h3>
     <div style="text-align: center;">
       <img width="600" alt="Coding Project" src="https://github.com/user-attachments/assets/43d99ee1-b701-497a-b4f0-d361d58dc79f" />
@@ -120,7 +120,7 @@ __<html lang="en">
     <p><a href="Untitled.mov">Simulation Video</a></p>
   </div>
 
-  <div class="project">
+  <div class="project" id = "#rep-counter">
     <h3>Rep Counter</h3>
     <p>
       For my design class, I maintained a comprehensive record of all my projects, including drawings, sketches, invention ideas, circuitry, SolidWorks designs, and the final project. The final project, which won the "Most Technical Project" award in the class, is showcased on pages 31–38 of the design portfolio, accompanied by a working video demonstration.
@@ -142,7 +142,7 @@ __<html lang="en">
     </p>
   </div>
 
-  <div class="project">
+  <div class="project" id="#navicane">
     <h3>NaviCane</h3>
     <div style="text-align: center;">
       <img width="751" alt="NaviCane" src="navicane.png" />
@@ -211,15 +211,31 @@ __<html lang="en">
 </section>
 <section id="relevantcoursework">
   <h2>Relevant Coursework</h2>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p><a href="mailto:nepalneha1@gmail.com">nepalneha1@gmail.com</a></p>
-    <p><a href="www.linkedin.com/in/nehanepal/" target="_blank">My LinkedIn Profile</a></p>
-  </section>
+  <ul>
+    <li>Aerodynamics</li>
+    <li>Dynamical Systems and Controls</li>
+    <li>Dynamics</li>
+    <li>Engineering Graphics: Sketching, CAD and Conceptual Design– <a href="#rep-counter">View Related Project</a></li>
+    <li>Entrepreneurship - <a href="#navicane">View Related Project</a></li>
+    <li>Finite Element Analysis</li>
+    <li>Fluid Mechanics I & II</li>
+    <li>Heat Transfer I & II</li>
+    <li>Machine Learning - <a href="#codingprojects">View Related Project</a></li>
+    <li>Mathmatics of Engineering- <a href="#codingprojects">View Related Project</a></li>
+    <li>Mechanical Engineering Design – <a href="#automatic-window-washer">View Related Project</a></li>
+    <li>Mechatronics</li>
+    <li>Statics</li>
+    <li>Thermodynamics</li>
+  </ul>
 </section>
-  <footer>
-    <p>&copy; 2023 Neha Nepal. All rights reserved.</p>
-  </footer>
-_
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p><a href="mailto:nepalneha1@gmail.com">nepalneha1@gmail.com</a></p>
+  <p><a href="https://www.linkedin.com/in/nehanepal/" target="_blank">My LinkedIn Profile</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2023 Neha Nepal. All rights reserved.</p>
+</footer>
 _
