@@ -58,8 +58,7 @@ ___<html lang="en">
  <div class="project" id="capstone">
     <h3>NGIS Capstone</h3>
     <div style="text-align: center;">
-      <img width="751" alt="Capstone" src="https://github.com/user-attachments/assets/1b0f27f2-918e-43b5-a6cb-394c88038746" />
-    </div>
+      <img width="751" alt="Capstone" src="ng logo.png
     <p>
 For this capstone project, I was elected team lead for a group of five students collaborating with Northrop Grumman Innovation Systems (NGIS). NGIS conducts thermal chamber testing for spacecraft components but faces challenges maintaining visual monitoring during extreme conditions. Our objective is to design a camera housing that enables off-the-shelf cameras to operate in spacecraft environments, withstanding temperatures from –180°C to +130°C and pressures down to 10⁻⁴ torr.
 
