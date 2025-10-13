@@ -48,7 +48,7 @@ ___<html lang="en">
      <div style="text-align: center;">
   <img width="427" alt="pic" src="https://github.com/user-attachments/assets/41b5d783-4503-4090-8276-ca2ff92d60aa" />
   </div>
-    <p>Hi! My name is Neha Nepal, and I am a third-year Mechanical Engineering student at the University of California, Santa Barbara. I was born in Nepal and moved to the United States when I was seven years old. UCSB had been my dream school since my freshman year of high school, but by senior year, it became my third choice. Initially, I applied to most schools with plans to pursue aerospace engineering. However, after visiting UCSB, I realized it was the perfect fit for me and chose it over my other options. Because UCSB doesn’t offer an aerospace engineering program, I enrolled in Mechanical Engineering and have thrived in the program. Meeting peers with interests ranging from bioengineering to mechatronics has broadened my perspective and diversified my interests. While I remain passionate about aerospace engineering, my focus has expanded to include sustainable energy solutions and optimizing systems for energy efficiency within the field.   
+    <p>Hi! My name is Neha Nepal, and I am a fourth year Mechanical Engineering student at the University of California, Santa Barbara. I was born in Nepal and moved to the United States when I was seven years old. UCSB had been my dream school since my freshman year of high school, but by senior year, it became my third choice. Initially, I applied to most schools with plans to pursue aerospace engineering. However, after visiting UCSB, I realized it was the perfect fit for me and chose it over my other options. Because UCSB doesn’t offer an aerospace engineering program, I enrolled in Mechanical Engineering and have thrived in the program. Meeting peers with interests ranging from bioengineering to mechatronics has broadened my perspective and diversified my interests. While I remain passionate about aerospace engineering, my focus has expanded to heat transfer and fluid mechanics more generally.
   </p>
 </section>
 
@@ -61,10 +61,10 @@ ___<html lang="en">
       <img width="600" alt="Automatic Window Washer" src="x.png" />
     </div>
     <p>
-      This project began as a concept to eliminate the safety risks faced by human window washers working on skyscrapers. However, after researching existing commercial solutions, we shifted focus to create a more practical and impactful product: an automated window washing system for residential homes. The goal was to design a permanent, cost-effective system that could be installed once and save homeowners thousands of dollars in window cleaning services over time.
+      This project began as a concept to eliminate the safety risks faced by human window washers working on skyscrapers. However, after researching existing commercial solutions, we shifted focus to create a more practical and impactful product: an automated window washing system for residential homes. The goal was to design a permanent, cost effective system that could be installed once and save homeowners thousands of dollars in window cleaning services over time.
     </p>
     <p>
-      Our final design utilized a T-bar gantry mechanism, driven by a stepper motor and motor driver, to move the cleaning module across the window’s surface both horizontally and vertically. We developed multiple iterations of the wiper and rail system, using CAD modeling (SolidWorks) and 3D-printed prototypes to test and refine functionality.
+      Our final design utilized a T-bar gantry mechanism, driven by a stepper motor and motor driver, to move the cleaning module across the window’s surface both horizontally and vertically. We developed multiple iterations of the wiper and rail system, using CAD modeling (SolidWorks) and 3D printed prototypes to test and refine functionality.
     </p>
     <p>
       My primary role was leading the design of the fluid dispensing system. This involved:
@@ -91,14 +91,14 @@ ___<html lang="en">
       <img width="600" alt="Airfoil Optimization" src="airfoil.png" />
     </div>
     <p>
-      As part of a three-person team, I led the mechanical analysis and modeling of a horizontal-axis wind turbine blade optimized for 12 m/s rated wind speed. We used the S8037 airfoil to design a four-blade rotor system with a 50-meter diameter and a tip speed ratio of 6.
+      As part of a three person team, I led the mechanical analysis and modeling of a horizontal-axis wind turbine blade optimized for 12 m/s rated wind speed. We used the S8037 airfoil to design a four blade rotor system with a 50 meter diameter and a tip speed ratio of 6.
     </p>
     <ul>
       <li>Used MATLAB to perform aerodynamic calculations, including Reynolds number estimation, chord and pitch optimization, and axial induction factor distribution.</li>
-      <li>Developed and integrated Blade Element Momentum (BEM) theory to calculate power, torque, and thrust coefficients, validating convergence through iterative modeling.</li>
+      <li>Developed and integrated Blade Element Momentum theory to calculate power, torque, and thrust coefficients, validating convergence through iterative modeling.</li>
       <li>Designed and refined the 3D turbine blade in SolidWorks, then scaled the model for physical stress testing under different material and wind conditions.</li>
       <li>Conducted simulations to determine critical deflection wind speed and root bending moment, using ABS plastic as a scale model material.</li>
-      <li>Modeled turbine wake behavior using Park, Revised Park, and Entrainment models to assess array performance for a 10-turbine farm layout.</li>
+      <li>Modeled turbine wake behavior using Park, Revised Park, and Entrainment models to assess array performance for a 10 turbine farm layout.</li>
     </ul>
     <p>
       This project strengthened my fluency in aerodynamic modeling and mechanical simulation, and deepened my interest in sustainable power generation and energy system optimization.
@@ -115,7 +115,7 @@ ___<html lang="en">
       The Billiard Simulation Project simulates the motion and collision dynamics of two balls (one blue and one red) in a confined space using MATLAB. The simulation takes into account various forces, including gravity, drag, and friction, to model the motion of the balls. It calculates the velocities, positions, and collision responses of the balls when they hit walls or each other, accounting for energy loss due to damping and friction.
     </p>
     <p>
-      I developed the collision detection and velocity response system using physics-based algorithms, ensuring that both energy loss and momentum conservation were accounted for.
+      I developed the collision detection and velocity response system using physics based algorithms, ensuring that both energy loss and momentum conservation were accounted for.
     </p>
     <p><a href="billiard__Copy_.pdf">Project Report</a></p>
     <p><a href="Untitled.mov">Simulation Video</a></p>
@@ -152,7 +152,7 @@ ___<html lang="en">
       As part of a technology management course, I pitched an original venture idea to a class of 50 students. Out of all proposals, mine was one of six selected to move forward, positioning me as the CEO of our mock company. I wanted the venture to reflect both my engineering background and a cause I cared deeply about: improving assistive mobility for the blind.
     </p>
     <p>
-      I conducted extensive research by interviewing professors in assistive tech, a blind faculty member, engineering students working on similar concepts, and staff at the Braille Institute of Santa Barbara. Their insights guided the product evolution—from an interactive vest to a more viable and user-friendly interactive cane.
+      I conducted extensive research by interviewing professors in assistive tech, a blind faculty member, engineering students working on similar concepts, and staff at the Braille Institute of Santa Barbara. Their insights guided the product evolution, from an interactive vest to a more viable and user friendly interactive cane.
     </p>
     <p>
       I led the development of our business plan, drafted team contracts, organized regular meetings, and delivered multiple progress pitches. As project lead, I was responsible for setting direction, resolving conflicts, and holding the team accountable.
@@ -174,18 +174,18 @@ ___<html lang="en">
     <div style="text-align: center;">
       <img width="600" alt="wam.webp" src="wam.webp" />
     </div>
-    <p>With a strong interest in heat transfer and fluid dynamics, I sought out an internship that would allow me to apply these concepts in real-world settings. While I had initially leaned toward aerospace engineering, a conversation with an HVAC professional helped me realize that the HVAC industry offered many of the same technical challenges—especially in airflow, energy systems, and thermal control—within a practical and fast-paced environment.</p>
+    <p>With a strong interest in heat transfer and fluid dynamics, I sought out an internship that would allow me to apply these concepts in real world settings. While I had initially leaned toward aerospace engineering, a conversation with an HVAC professional helped me realize that the HVAC industry offered many of the same technical challenges—especially in airflow, energy systems, and thermal control—within a practical and fast paced environment.</p>
 
-    <p>As a Project Engineering Intern at Western Allied Mechanical, I supported over ten active HVAC projects, primarily in high-stakes environments such as hospitals and laboratories. This experience gave me insight into both the engineering and business aspects of project delivery, and it clarified my passion for the technical side of engineering.</p>
+    <p>As a Project Engineering Intern at Western Allied Mechanical, I supported over ten active HVAC projects, primarily in high stakes environments such as hospitals and laboratories. This experience gave me insight into both the engineering and business aspects of project delivery, and it clarified my passion for the technical side of engineering.</p>
 
     <ul>
       <li>Assisted in reviewing and redlining mechanical plans, saving the project team over 30 hours/week by identifying early discrepancies and clarifying installation requirements.</li>
       <li>Conducted weekly job site audits on projects valued between $2–3 million, checking for compliance with mechanical specs, code, and installation quality.</li>
       <li>Collaborated with engineers to redesign and recreate mechanical drawings, preventing an estimated $50,000 in potential rework due to coordination clashes or design gaps.</li>
-      <li>Streamlined processes for RFIs (Requests for Information) and submittals, and managed procurement logs, helping maintain on-time material delivery and project alignment.</li>
+      <li>Streamlined processes for RFIs (Requests for Information) and submittals, and managed procurement logs, helping maintain on time material delivery and project alignment.</li>
     </ul>
 
-    <p>Throughout the internship, I found myself drawn to understanding how the systems worked—from airflow routing to energy efficiency design choices. While I appreciated the exposure to business and management, it was the mechanical problem-solving that confirmed my desire to pursue a career grounded in engineering fundamentals.</p>
+    <p>Throughout the internship, I found myself drawn to understanding how the systems worked—from airflow routing to energy efficiency design choices. While I appreciated the exposure to business and management, it was the mechanical problem solving that confirmed my desire to pursue a career grounded in engineering fundamentals.</p>
   </div>
 
   <div class="internship">
@@ -203,11 +203,11 @@ ___<html lang="en">
     <div style="text-align: center;">
       <img width="300" alt="pe.webp" src="pe.webp" />
     </div>
-    <p>I began working at Panda Express during my junior year of high school, and over the course of nine months, I progressed from a Front of House assistant to being promoted to Person in Charge—a role typically held by older, more experienced staff.</p>
+    <p>I began working at Panda Express during my junior year of high school, and over the course of nine months, I progressed from a Front of House assistant to being promoted to Person in Charge, a role typically held by older, more experienced staff.</p>
 
     <p>Starting with basic responsibilities like taking orders, I quickly gained the trust of management and took on greater responsibilities, including closing the store independently, handling end-of-day finances, leading the closing team, supporting kitchen operations, and holding team members accountable for register discrepancies.</p>
 
-    <p>I earned two raises during my time there, reflecting my strong work ethic and leadership. I eventually chose to leave the position to focus on AP exams and completing my senior year, but the experience gave me a deep appreciation for teamwork, accountability, and growth in a fast-paced environment.</p>
+    <p>I earned two raises during my time there, reflecting my strong work ethic and leadership. I eventually chose to leave the position to focus on AP exams and completing my senior year, but the experience gave me a deep appreciation for teamwork, accountability, and growth in a fast paced environment.</p>
   </div>
 </section>
 <section id="relevantcoursework">
