@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-___<html lang="en">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title> My Portfolio </title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Neha Nepal | Portfolio</title>
   <style>
     body {
-      background-color: #f0f8ff; 
+      background-color: #f0f8ff;
+      font-family: sans-serif;
+      text-align: center;
     }
-    /* Add this to styles.css */
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
     a {
       color: #2B4570;
       text-decoration: none;
@@ -18,44 +27,57 @@ ___<html lang="en">
       color: #7180AC;
       text-decoration: underline;
     }
-    section {
-      border: 2px solid #000; /* Black border */
-      border-radius: 10px; /* Rounded corners */
-      padding: 20px; /* Space inside the border */
-      margin: 20px; /* Space between sections */
-      background-color: #ffffff; /* Optional: Add background color */
-    }
-    h2 {
-      text-align: center; /* Center-align the titles */
-    }
   </style>
 </head>
+
 <body>
   <header>
-    <nav>
     <h1 style="font-size: 4rem; color: #003459;">NEHA NEPAL</h1>
+    <nav>
       <ul>
-        <li><a href="#about">About Me</a></li> 
-        <li><a href="#projects">Projects</a></li> 
-        <li><a href= "#internship&prof">Internship & Professional Experience</a></li> 
-        <li><a href= "#relevantcoursework">Relevant Coursework</a></li> 
-                <li><a href="#contact">Contact</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="coursework.html">Coursework</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
-  <section id="about">
-    <h2>About Me</h2>
-     <div style="text-align: center;">
-  <img width="427" alt="pic" src="https://github.com/user-attachments/assets/41b5d783-4503-4090-8276-ca2ff92d60aa" />
-  </div>
+
+  <section id="intro">
+    <h2>Welcome!</h2>
     <p>Hi! My name is Neha Nepal, and I am a fourth year Mechanical Engineering student at the University of California, Santa Barbara. I was born in Nepal and moved to the United States when I was seven years old. UCSB had been my dream school since my freshman year of high school, but by senior year, it became my third choice. Initially, I applied to most schools with plans to pursue aerospace engineering. However, after visiting UCSB, I realized it was the perfect fit for me and chose it over my other options. Because UCSB doesn’t offer an aerospace engineering program, I enrolled in Mechanical Engineering and have thrived in the program. Meeting peers with interests ranging from bioengineering to mechatronics has broadened my perspective and diversified my interests. While I remain passionate about aerospace engineering, my focus has expanded to heat transfer and fluid mechanics more generally.
   </p>
-</section>
+    <div style="text-align: center;">
+  <img width="427" alt="pic" src="https://github.com/user-attachments/assets/41b5d783-4503-4090-8276-ca2ff92d60aa" />
+           alt="Neha Nepal" width="400" />
+    </div>
+
+    <p>Use the navigation menu above to explore my work!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Neha Nepal. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Projects | Neha Nepal</title>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">← Home</a> | Projects</h1>
+  </header>
 
   <section id="projects">
-  <h2>Projects</h2>
-    
- <div class="project" id="capstone">
+    <<div class="project" id="capstone">
     <h3>NGIS Capstone</h3>
     <div style="text-align: center;">
       <img width="751" alt="Capstone" src="ng logo.png"
@@ -177,12 +199,29 @@ This quarter, our focus is on research and concept development leading to a func
     <p><a href="Real Navicane.pdf">Pitch Deck</a></p>
   </div>
 </section>
+  </section>
 
+  <footer>
+    <p>&copy; 2025 Neha Nepal.</p>
+  </footer>
+</body>
+</html>
 
-<section id="internship&prof">
-  <h2>Internship & Professional Experience</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Internship & Professional Experience | Neha Nepal</title>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">← Home</a> | Internship & Professional Experience</h1>
+  </header>
 
-  <div class="internship">
+  <section id="projects">
+      <div class="internship">
     <h3>Western Allied Mechanical – Project Engineering Intern</h3>
     <div style="text-align: center;">
       <img width="600" alt="wam.webp" src="wam.webp" />
@@ -222,8 +261,30 @@ This quarter, our focus is on research and concept development leading to a func
 
     <p>I earned two raises during my time there, reflecting my strong work ethic and leadership. I eventually chose to leave the position to focus on AP exams and completing my senior year, but the experience gave me a deep appreciation for teamwork, accountability, and growth in a fast paced environment.</p>
   </div>
-</section>
-<section id="relevantcoursework">
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Neha Nepal.</p>
+  </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Projects | Neha Nepal</title>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">← Home</a> | Projects</h1>
+  </header>
+
+  <section id="projects">
+    <<section id="relevantcoursework">
   <h2>Relevant Coursework</h2>
   <ul>
     <li>Aerodynamics</li>
@@ -242,13 +303,40 @@ This quarter, our focus is on research and concept development leading to a func
     <li>Statics</li>
     <li>Thermodynamics</li>
   </ul>
-</section>
+  </section>
 
-<section id="contact">
+  <footer>
+    <p>&copy; 2025 Neha Nepal.</p>
+  </footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Projects | Neha Nepal</title>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">← Home</a> | Projects</h1>
+  </header>
+
+    <section id="contact">
   <h2>Contact</h2>
   <p><a href="mailto:nepalneha1@gmail.com">nepalneha1@gmail.com</a></p>
   <p><a href="https://www.linkedin.com/in/nehanepal/" target="_blank">My LinkedIn Profile</a></p>
-</section>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Neha Nepal.</p>
+  </footer>
+</body>
+</html>
+
 
 <footer>
   <p>&copy; 2023 Neha Nepal. All rights reserved.</p>
