@@ -24,12 +24,23 @@
       margin: 0;
     }
 
-    header a {
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 15px;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    header a, nav a {
       color: #2B4570;
       text-decoration: none;
     }
 
-    header a:hover {
+    header a:hover, nav a:hover {
       color: #7180AC;
       text-decoration: underline;
     }
@@ -90,18 +101,16 @@
 
 <body>
   <header>
-    <h1><a href="index.html">Home</a> | Projects</h1>
-   
-    <h1 style="font-size: 4rem; color: #003459;">NEHA NEPAL</h1>
+    <h1><a href="index.html"></a> | Projects</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="experience.html">Experience</a></li>
+        <li><a href="coursework.html">Coursework</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-
   </header>
 
   <section id="projects">
@@ -116,7 +125,7 @@
       <h3>Automatic Window Washer</h3>
       <img width="600" alt="Automatic Window Washer" src="x.png" />
       <p>This project began as a concept to eliminate the safety risks faced by human window washers working on skyscrapers. However, after researching existing commercial solutions, we shifted focus to create a more practical and impactful product: an automated window washing system for residential homes. The goal was to design a permanent, cost effective system that could be installed once and save homeowners thousands of dollars in window cleaning services over time.</p>
-      <p>Our final design utilized a T-bar gantry mechanism, driven by a stepper motor and motor driver, to move the cleaning module across the window’s surface both horizontally and vertically. We developed multiple iterations of the wiper and rail system, using CAD modeling (SolidWorks) and 3D printed prototypes to test and refine functionality.</p>
+      <p>Our final design utilized a T-bar gantry mechanism, driven by a stepper motor and motor driver, to move the cleaning module across the window's surface both horizontally and vertically. We developed multiple iterations of the wiper and rail system, using CAD modeling (SolidWorks) and 3D printed prototypes to test and refine functionality.</p>
       <p>My primary role was leading the design of the fluid dispensing system. This involved:</p>
       <ul>
         <li>Calculating the required flow rate and nozzle pressure for effective coverage.</li>
@@ -181,7 +190,7 @@
   </section>
 
   <footer>
-    <p>&copy; 2025 Neha Nepal.</p>
+    <p>&copy; 2025 Neha Nepal. All rights reserved.</p>
   </footer>
 </body>
 </html>
