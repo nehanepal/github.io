@@ -49,7 +49,7 @@
       Hi! My name is Neha Nepal, and I am a fourth-year Mechanical Engineering student at the University of California, Santa Barbara...
     </p>
     <div style="text-align: center;">
-      <img width="400" alt="Neha Nepal" src="https://github.com/user-attachments/assets/41b5d783-4503-4090-8276-ca2ff92d60aa" />
+      <img width="400" alt="Neha Nepal" src="nehanepal@ucsb.edu-c0a8d455.jpg" />
     </div>
     <p>Use the navigation menu above to explore my work!</p>
   </section>
