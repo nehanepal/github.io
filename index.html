@@ -67,50 +67,54 @@
       </ul>
     </nav>
   </header>
- <style>
-  .unified-bio-box {
-    max-width: 950px; /* Stretched out more as requested */
+<style>
+  /* The single white box container */
+  .main-container {
+    max-width: 1000px; /* Stretched out more */
     margin: 40px auto;
     background-color: white;
     padding: 40px;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 52, 89, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     
-    /* This aligns the photo and text side-by-side */
-    display: flex; 
-    align-items: flex-start; 
-    gap: 40px; 
+    /* Aligns photo and text side-by-side */
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
   }
 
-  .bio-photo {
-    width: 350px; /* Fixed size to keep it centered on the left */
+  /* Your photo on the left */
+  .profile-pic {
+    width: 350px; /* Keeps image a solid size */
+    height: auto;
     border-radius: 4px;
-    flex-shrink: 0; /* Prevents the image from getting squeezed */
+    flex-shrink: 0;
   }
 
-  .bio-text {
+  /* The text container */
+  .bio-content {
     flex-grow: 1;
-    text-align: left;
   }
 
-  .bio-text p {
-    line-height: 1.7;
+  /* Paragraph formatting and spacing */
+  .bio-content p {
+    font-size: 1.1rem; /* Restores text to a readable size */
+    line-height: 1.6;
     color: #333;
-    margin-bottom: 25px; /* Creates the space between paragraphs */
+    margin: 0 0 20px 0; /* Space between paragraphs */
   }
 
-  /* Removes the margin from the very last paragraph */
-  .bio-text p:last-child {
+  .bio-content p:last-child {
     margin-bottom: 0;
   }
 </style>
 
 <section id="intro">
-  <div class="unified-bio-box">
+  <div class="main-container">
     
-    <img src="nehanepal@ucsb.edu-c0a8d455.jpg" alt="Neha Nepal" class="bio-photo" />
+    <img src="nehanepal@ucsb.edu-c0a8d455.jpg" alt="Neha Nepal" class="profile-pic" />
 
-    <div class="bio-text">
+    <div class="bio-content">
       <p>My name is Neha Nepal, and I am a fourth-year Mechanical Engineering student at the University of California, Santa Barbara. Born in Nepal and raised in the United States since the age of seven, I have always been driven by curiosity about how things move, interact, and function.</p>
 
       <p>Since my freshman year of high school, attending UCSB had been a dream of mine. Initially, I planned to pursue aerospace engineering and applied to universities accordingly. By my senior year, I realized UCSB did not offer an aerospace engineering program, and it dropped to my third choice. However, after visiting campus, I recognized that UCSB was the right fit for me academically and personally. I ultimately chose UCSB and enrolled in Mechanical Engineering, a decision that has shaped and strengthened my aspirations in unexpected ways.</p>
