@@ -31,40 +31,53 @@ color:var(--text);
 line-height:1.6;
 }
 
-header{
-background:white;
-border-bottom:1px solid var(--border);
-position:sticky;
-top:0;
+a {
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: 700;
 }
 
-.nav-container{
-max-width:1100px;
-margin:auto;
-padding:18px 24px;
-display:flex;
-justify-content:space-between;
-align-items:center;
+a:hover {
+  color: #7180AC;
+  text-decoration: underline;
 }
 
-.logo{
-font-weight:bold;
-font-size:1.2rem;
-color:var(--navy);
+header {
+  background: white;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
-nav ul{
-display:flex;
-list-style:none;
-gap:20px;
-padding:0;
-margin:0;
+.nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 18px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
 
-nav a{
-text-decoration:none;
-color:var(--blue);
-font-weight:600;
+.logo {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--navy);
+  letter-spacing: 0.04em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 22px;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+nav a {
+  font-size: 0.95rem;
 }
 
 .hero{
