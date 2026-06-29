@@ -9,7 +9,96 @@
 <title>Technical Skills | Neha Nepal</title>
 
 <link rel="stylesheet" href="styles.css">
+<style>
 
+.hero{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    padding:70px 20px 40px;
+}
+
+.hero h1{
+    font-size:3rem;
+    color:var(--navy);
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:1.05rem;
+    color:var(--muted);
+    max-width:700px;
+    margin:auto;
+    line-height:1.7;
+}
+
+.skills-grid{
+    max-width:1100px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+    padding:20px;
+}
+
+.card{
+    padding:28px;
+}
+
+.card h2{
+    color:var(--navy);
+    margin-top:0;
+    margin-bottom:18px;
+}
+
+.card ul{
+    margin:0;
+    padding-left:20px;
+}
+
+.card li{
+    margin-bottom:8px;
+}
+
+.interests{
+    max-width:1100px;
+    margin:40px auto;
+    padding:0 20px;
+}
+
+.interests-card{
+    padding:30px;
+}
+
+.interests-card h2{
+    color:var(--navy);
+    margin-top:0;
+}
+
+.badges{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:20px;
+}
+
+.badge{
+    font-size:.9rem;
+}
+
+@media(max-width:700px){
+
+.hero h1{
+font-size:2.5rem;
+}
+
+.skills-grid{
+grid-template-columns:1fr;
+}
+
+}
+
+</style>
 </head>
 
 <body>
