@@ -1,155 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css" />
-  <title>Relevant Coursework | Neha Nepal</title>
-  <style>
-    body {
-      background-color: #f0f8ff;
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-    }
 
-    /* Header */
-    header {
-      text-align: center;
-      padding: 20px 0;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    header h1 {
-      color: #003459;
-      font-size: 2.5rem;
-      margin: 0;
-    }
+<title>Technical Skills | Neha Nepal</title>
 
-    nav ul {
-      list-style: none;
-      padding: 0;
-      margin-top: 15px;
-    }
+<style>
 
-    nav ul li {
-      display: inline;
-      margin: 0 15px;
-    }
+:root{
+--navy:#003459;
+--blue:#2B4570;
+--soft:#f0f8ff;
+--border:#d7e3f1;
+--text:#1f2933;
+--muted:#5f6c7b;
+}
 
-    header a, nav a {
-      color: #2B4570;
-      text-decoration: none;
-    }
+*{
+box-sizing:border-box;
+}
 
-    header a:hover, nav a:hover {
-      color: #7180AC;
-      text-decoration: underline;
-    }
+body{
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+background:var(--soft);
+color:var(--text);
+line-height:1.6;
+}
 
-    /* Coursework section */
-    #coursework {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 20px;
-      text-align: left;
-    }
+header{
+background:white;
+border-bottom:1px solid var(--border);
+position:sticky;
+top:0;
+}
 
-    #coursework h2 {
-      color: #003459;
-      text-align: center;
-    }
+.nav-container{
+max-width:1100px;
+margin:auto;
+padding:18px 24px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
 
-    #coursework ul {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
+.logo{
+font-weight:bold;
+font-size:1.2rem;
+color:var(--navy);
+}
 
-    #coursework ul li {
-      margin-bottom: 10px;
-      font-size: 1.05em;
-      line-height: 1.6;
-      color: #333;
-    }
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+padding:0;
+margin:0;
+}
 
-    #coursework a {
-      color: #2B4570;
-      text-decoration: none;
-      font-weight: bold;
-    }
+nav a{
+text-decoration:none;
+color:var(--blue);
+font-weight:600;
+}
 
-    #coursework a:hover {
-      color: #7180AC;
-      text-decoration: underline;
-    }
+.hero{
+max-width:900px;
+margin:auto;
+text-align:center;
+padding:70px 20px 40px;
+}
 
-    footer {
-      text-align: center;
-      padding: 15px 0;
-      font-size: 0.9rem;
-      color: #333;
-      margin-top: 40px;
-    }
-  </style>
+.hero h1{
+font-size:3rem;
+color:var(--navy);
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:1.05rem;
+color:var(--muted);
+}
+
+.skills-grid{
+max-width:1100px;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:28px;
+border-radius:20px;
+border:1px solid var(--border);
+box-shadow:0 8px 22px rgba(0,52,89,.08);
+}
+
+.card h2{
+color:var(--navy);
+margin-top:0;
+margin-bottom:15px;
+}
+
+.card ul{
+padding-left:18px;
+margin:0;
+}
+
+.card li{
+margin-bottom:8px;
+}
+
+.interests{
+max-width:1100px;
+margin:40px auto;
+padding:0 20px;
+}
+
+.interests-card{
+background:white;
+padding:30px;
+border-radius:20px;
+border:1px solid var(--border);
+box-shadow:0 8px 22px rgba(0,52,89,.08);
+}
+
+.badges{
+margin-top:20px;
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.badge{
+background:#e7f0fb;
+padding:8px 14px;
+border-radius:999px;
+font-weight:600;
+color:var(--blue);
+}
+
+footer{
+text-align:center;
+padding:30px;
+margin-top:40px;
+background:white;
+border-top:1px solid var(--border);
+color:var(--muted);
+}
+
+</style>
+
 </head>
+
 <body>
-  <header>
-    <h1><a href="index.html"></a> Relevant Coursework</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="experience.html">Experience</a></li>
-        <li><a href="coursework.html">Coursework</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section id="coursework">
-    <strong>Core Mechanical Engineering</strong>
-  <ul>
-    <li>Dynamics</li>
-    <li>Statics</li>
-    <li>Capstone – <a href="projects.html#capstone">Associated Project</a></li>
-  </ul>
-    
-  <strong>Thermal & Aerospace Sciences</strong>
-  <ul>
-    <li>Aerodynamics</li>
-    <li>Fluid Mechanics I & II</li>
-    <li>Thermodynamics</li>
-    <li>Heat Transfer I & II</li>
-  </ul>
+<header>
 
-  <strong>Robotics & Control Systems</strong>
-  <ul>
-    <li>Dynamical Systems and Controls</li>
-    <li>Mechatronics</li>
-  </ul>
+<div class="nav-container">
 
-  <strong>Design, Simulation & Analysis</strong>
-  <ul>
-    <li>Finite Element Analysis</li>
-    <li>Mechanical Engineering Design – <a href="projects.html#automatic-window-washer">Associated Project</a></li>
-    <li>Machine Shop – <a href="projects.html#codingprojects">Associated Project</a></li>
-    <li>Engineering Graphics: Sketching, CAD, and Conceptual Design – <a href="projects.html#repcounter">Associated Project</a></li>
-    <li>Mathematics of Engineering – <a href="projects.html#codingprojects">Associated Project</a></li>
-    <li>Machine Learning – <a href="projects.html#airmotor">Associated Project</a></li>
-  </ul>
+<div class="logo">NEHA NEPAL</div>
 
-  <strong>Technology Management & Business</strong>
-  <ul>
-    <li>Venture Capital</li>
-    <li>Entrepreneurship – <a href="projects.html#navicane">Associated Project</a></li>
-    <li>Negotiation</li>
-    <li>AI and Business</li>
-  </ul>
+<nav>
 
-  
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="projects.html">Projects</a></li>
+
+<li><a href="experience.html">Experience</a></li>
+
+<li><a href="skills.html">Technical Skills</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<h1>Technical Skills</h1>
+
+<p>
+
+My engineering experience combines analytical modeling, mechanical design,
+
+rapid prototyping, manufacturing, and systems-level problem solving through
+
+industry experience, research, and multidisciplinary engineering projects.
+
+</p>
+
 </section>
 
-  <footer>
-    <p>&copy; 2025 Neha Nepal. All rights reserved.</p>
-  </footer>
+<section class="skills-grid">
+
+<div class="card">
+
+<h2>Mechanical Design</h2>
+
+<ul>
+
+<li>SolidWorks</li>
+
+<li>Fusion 360</li>
+
+<li>Mechanical Assemblies</li>
+
+<li>Component Integration</li>
+
+<li>Tolerance Analysis</li>
+
+<li>Design Iteration</li>
+
+<li>Rapid Prototyping</li>
+
+<li>3D Printing</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Simulation & Analysis</h2>
+
+<ul>
+
+<li>MATLAB</li>
+
+<li>Python</li>
+
+<li>Finite Element Analysis</li>
+
+<li>Heat Transfer</li>
+
+<li>Fluid Mechanics</li>
+
+<li>Thermodynamics</li>
+
+<li>Numerical Modeling</li>
+
+<li>Engineering Calculations</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Manufacturing</h2>
+
+<ul>
+
+<li>Machine Shop</li>
+
+<li>Haas Vertical Mill</li>
+
+<li>Manual Lathe</li>
+
+<li>Band Saw</li>
+
+<li>Assembly</li>
+
+<li>Mechanical Testing</li>
+
+<li>Prototype Fabrication</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Programming & Controls</h2>
+
+<ul>
+
+<li>MATLAB</li>
+
+<li>Python</li>
+
+<li>Arduino</li>
+
+<li>Data Analysis</li>
+
+<li>Sensor Integration</li>
+
+<li>Embedded Systems</li>
+
+<li>Engineering Visualization</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Engineering Disciplines</h2>
+
+<ul>
+
+<li>Mechanical Design</li>
+
+<li>Fluid Dynamics</li>
+
+<li>Heat Transfer</li>
+
+<li>Aerodynamics</li>
+
+<li>Controls</li>
+
+<li>Mechatronics</li>
+
+<li>Energy Systems</li>
+
+<li>HVAC Engineering</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Professional Skills</h2>
+
+<ul>
+
+<li>Technical Documentation</li>
+
+<li>Engineering Communication</li>
+
+<li>Project Coordination</li>
+
+<li>Cross-functional Collaboration</li>
+
+<li>Problem Solving</li>
+
+<li>Design Reviews</li>
+
+<li>Technical Presentations</li>
+
+<li>Leadership</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section class="interests">
+
+<div class="interests-card">
+
+<h2 style="color:#003459;">Current Engineering Interests</h2>
+
+<p>
+
+I'm particularly interested in opportunities that combine analytical engineering,
+
+hands-on design, and multidisciplinary collaboration.
+
+</p>
+
+<div class="badges">
+
+<div class="badge">Aerospace Systems</div>
+
+<div class="badge">Robotics</div>
+
+<div class="badge">Thermal Engineering</div>
+
+<div class="badge">Mechanical Design</div>
+
+<div class="badge">Autonomous Systems</div>
+
+<div class="badge">Advanced Manufacturing</div>
+
+<div class="badge">Fluid Dynamics</div>
+
+<div class="badge">Product Development</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Neha Nepal
+
+</footer>
+
 </body>
+
 </html>
