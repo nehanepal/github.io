@@ -5,7 +5,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About | Neha Nepal</title>
 <link rel="stylesheet" href="styles.css">
- 
+ <style>
+
+.hero{
+    max-width:1100px;
+    margin:0 auto;
+    padding:80px 24px 60px;
+}
+
+.hero h1{
+    font-size:4.2rem;
+    color:#003459;
+    margin:10px 0 20px;
+    line-height:1.05;
+}
+
+.hero p{
+    max-width:720px;
+    font-size:1.2rem;
+    color:#5f6c7b;
+}
+
+.eyebrow{
+    font-size:.9rem;
+    letter-spacing:.15em;
+    font-weight:700;
+    color:#2B4570;
+    text-transform:uppercase;
+}
+
+main{
+    max-width:1100px;
+    margin:auto;
+    padding:0 24px 80px;
+}
+
+.section{
+    padding:34px;
+    margin-bottom:30px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+}
+
+.card{
+    padding:26px;
+}
+
+.timeline{
+    display:grid;
+    gap:20px;
+}
+
+.timeline-item{
+    border-left:4px solid #2B4570;
+    padding-left:20px;
+}
+
+.badges{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:20px;
+}
+
+@media(max-width:850px){
+
+.grid{
+grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:3rem;
+}
+
+}
+
+</style>
 </head>
 
 <body>
