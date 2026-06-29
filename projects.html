@@ -6,6 +6,171 @@
   <title>Projects | Neha Nepal</title>
 
   <link rel="stylesheet" href="styles.css">
+  <style>
+.page-hero {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 70px 24px 35px;
+  text-align: center;
+}
+
+.page-hero h1 {
+  font-size: clamp(2.6rem, 6vw, 4.5rem);
+  color: var(--navy);
+  margin: 0 0 18px;
+  line-height: 1;
+}
+
+.page-hero p {
+  max-width: 760px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 1.08rem;
+}
+
+.eyebrow {
+  color: var(--blue);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+
+.project-nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 10px 24px 30px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.project-nav a {
+  background: white;
+  border: 1px solid var(--border);
+  padding: 9px 14px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 14px rgba(0, 52, 89, 0.05);
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 10px 24px 60px;
+}
+
+.project {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 26px;
+  padding: 34px;
+  margin-bottom: 36px;
+  box-shadow: 0 10px 28px rgba(0, 52, 89, 0.08);
+}
+
+.project-header {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 28px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.project h2 {
+  color: var(--navy);
+  font-size: 2rem;
+  margin: 0 0 10px;
+}
+
+.project-subtitle {
+  color: var(--blue);
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  display: block;
+  background: #eef5fc;
+}
+
+.quick-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.fact {
+  background: #f7fbff;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 14px;
+}
+
+.fact strong {
+  display: block;
+  color: var(--navy);
+  font-size: 0.9rem;
+}
+
+.fact span {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.block {
+  background: #f7fbff;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 22px;
+}
+
+.block h3 {
+  color: var(--navy);
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.block ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.block li {
+  margin-bottom: 8px;
+}
+
+.links {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+@media (max-width: 850px) {
+  .project-header,
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-facts {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
 </head>
 
 <body>
