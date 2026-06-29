@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Neha Nepal</title>
+
+  <style>
+    :root {
+      --navy: #003459;
+      --blue: #2B4570;
+      --soft: #f0f8ff;
+      --border: #d7e3f1;
+      --text: #1f2933;
+      --muted: #5f6c7b;
+      --accent: #7180AC;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--soft);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    a:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    header {
+      background: white;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .nav-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 18px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo {
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: var(--navy);
+      letter-spacing: 0.04em;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 22px;
+      padding: 0;
+      margin: 0;
+      flex-wrap: wrap;
+    }
+
+    .hero {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 70px 24px 40px;
+      text-align: center;
+    }
+
+    .eyebrow {
+      color: var(--blue);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 0.85rem;
+      margin-bottom: 12px;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.6rem, 6vw, 4.5rem);
+      color: var(--navy);
+      margin: 0 0 18px;
+      line-height: 1;
+    }
+
+    .hero p {
+      max-width: 760px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px 24px 70px;
+    }
+
+    .section {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 34px;
+      margin-bottom: 28px;
+      box-shadow: 0 10px 28px rgba(0, 52, 89, 0.08);
+    }
+
+    .section h2 {
+      color: var(--navy);
+      margin-top: 0;
+      font-size: 1.8rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .card {
+      background: #f7fbff;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 22px;
+    }
+
+    .card h3 {
+      color: var(--navy);
+      margin-top: 0;
+    }
+
+    .timeline {
+      display: grid;
+      gap: 18px;
+    }
+
+    .timeline-item {
+      border-left: 4px solid var(--blue);
+      padding-left: 18px;
+    }
+
+    .timeline-item strong {
+      color: var(--navy);
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .badge {
+      background: #e8f1fb;
+      color: var(--blue);
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      background: white;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 28px 20px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 850px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .nav-container {
+        flex-direction: column;
+      }
+
+      nav ul {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="nav-container">
+      <a class="logo" href="index.html">NEHA NEPAL</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="skills.html">Technical Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="eyebrow">About Me</div>
+    <h1>How I Think as an Engineer</h1>
+    <p>
+      I’m a Mechanical Engineer who enjoys turning complex technical problems into practical,
+      testable designs through analysis, iteration, and hands-on validation.
+    </p>
+  </section>
+
+  <main>
+    <section class="section">
+      <h2>My Engineering Approach</h2>
+      <p>
+        I approach engineering by first understanding the system: what it needs to do, what constraints matter,
+        and how success will be measured. From there, I use CAD, calculations, simulation, and prototyping to
+        move from concept to validation.
+      </p>
+      <p>
+        My strongest interests are in mechanical systems where thermal, fluid, structural, and motion-based
+        constraints interact. I enjoy work that requires both analytical thinking and hands-on execution.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>What I’m Drawn To</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Aerospace Systems</h3>
+          <p>
+            I’m interested in spacecraft, aircraft, and defense systems where reliability, environment,
+            materials, and mechanical performance are critical.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Robotics & Mechatronics</h3>
+          <p>
+            I enjoy designing systems that move, sense, actuate, and respond to real physical conditions.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Thermal & Fluid Systems</h3>
+          <p>
+            Heat transfer and fluid mechanics are areas I continue to return to because they connect theory
+            directly to real system performance.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Engineering Timeline</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <strong>Mechanical Engineering at UC Santa Barbara</strong>
+          Built a foundation in design, thermodynamics, fluids, heat transfer, controls, mechatronics, and simulation.
+        </div>
+
+        <div class="timeline-item">
+          <strong>Hands-On Design Projects</strong>
+          Designed and prototyped mechanical systems including an autonomous window-cleaning robot, machined air motor,
+          embedded rep counter, and MATLAB-based engineering simulations.
+        </div>
+
+        <div class="timeline-item">
+          <strong>Undergraduate Research</strong>
+          Developed MATLAB analysis tools and worked with telemetry/GPS data for fluid dynamics research focused on
+          marine drag reduction.
+        </div>
+
+        <div class="timeline-item">
+          <strong>Industry Experience</strong>
+          Supported commercial HVAC engineering projects at Western Allied Mechanical, gaining experience with mechanical
+          drawings, field coordination, RFIs, submittals, and real-world system installation.
+        </div>
+
+        <div class="timeline-item">
+          <strong>Northrop Grumman-Sponsored Capstone</strong>
+          Led a five-person team designing a camera housing for spacecraft thermal chamber testing under extreme temperature
+          and vacuum conditions.
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Current Goals</h2>
+      <p>
+        I am seeking full-time mechanical, aerospace, robotics, product development, or systems engineering roles where I can
+        contribute to multidisciplinary design work, prototype development, analysis, and testing.
+      </p>
+
+      <div class="badges">
+        <span class="badge">Mechanical Design</span>
+        <span class="badge">Aerospace</span>
+        <span class="badge">Robotics</span>
+        <span class="badge">Thermal Systems</span>
+        <span class="badge">Fluid Dynamics</span>
+        <span class="badge">Product Development</span>
+        <span class="badge">Systems Engineering</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Neha Nepal. All rights reserved.</p>
+  </footer>
+</body>
+</html>
