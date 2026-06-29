@@ -4,193 +4,736 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projects | Neha Nepal</title>
+
   <style>
+    :root {
+      --navy: #003459;
+      --blue: #2B4570;
+      --soft-blue: #f0f8ff;
+      --card: #ffffff;
+      --text: #1f2933;
+      --muted: #5f6c7b;
+      --accent: #7180AC;
+      --border: #d7e3f1;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      background-color: #f0f8ff;
-      font-family: sans-serif;
       margin: 0;
-      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--soft-blue);
+      color: var(--text);
+      line-height: 1.6;
     }
 
-    /* Header */
+    a {
+      color: var(--blue);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    a:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
     header {
-      text-align: center;
-      padding: 20px 0;
+      background: white;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 10;
     }
 
-    header h1 {
-      color: #003459;
-      font-size: 2.5rem;
-      margin: 0;
+    .nav-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 18px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo {
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: var(--navy);
+      letter-spacing: 0.04em;
     }
 
     nav ul {
       list-style: none;
+      display: flex;
+      gap: 22px;
       padding: 0;
-      margin-top: 15px;
+      margin: 0;
+      flex-wrap: wrap;
     }
 
-    nav ul li {
-      display: inline;
-      margin: 0 15px;
+    nav a {
+      font-size: 0.95rem;
     }
 
-    header a, nav a {
-      color: #2B4570;
-      text-decoration: none;
-    }
-
-    header a:hover, nav a:hover {
-      color: #7180AC;
-      text-decoration: underline;
-    }
-
-    /* Project section */
-    #projects {
-      max-width: 900px;
+    .page-hero {
+      max-width: 1100px;
       margin: 0 auto;
-      padding: 20px;
-      text-align: left;
+      padding: 70px 24px 35px;
+      text-align: center;
+    }
+
+    .eyebrow {
+      color: var(--blue);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 0.85rem;
+      margin-bottom: 12px;
+    }
+
+    .page-hero h1 {
+      font-size: clamp(2.6rem, 6vw, 4.5rem);
+      line-height: 1;
+      color: var(--navy);
+      margin: 0 0 18px;
+    }
+
+    .page-hero p {
+      max-width: 760px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+
+    .project-nav {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 10px 24px 30px;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .project-nav a {
+      background: white;
+      border: 1px solid var(--border);
+      padding: 9px 14px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      box-shadow: 0 4px 14px rgba(0, 52, 89, 0.05);
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 10px 24px 60px;
     }
 
     .project {
-      margin-bottom: 50px;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 26px;
+      padding: 34px;
+      margin-bottom: 36px;
+      box-shadow: 0 10px 28px rgba(0, 52, 89, 0.08);
     }
 
-    .project h3 {
-      color: #003459;
-      font-size: 1.5rem;
-      margin-top: 20px;
-      text-align: left;
+    .project-header {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 28px;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+
+    .project h2 {
+      color: var(--navy);
+      font-size: 2rem;
+      margin: 0 0 10px;
+    }
+
+    .project-subtitle {
+      color: var(--blue);
+      font-weight: 700;
+      margin-bottom: 14px;
     }
 
     .project img {
+      width: 100%;
+      border-radius: 18px;
+      border: 1px solid var(--border);
       display: block;
-      margin: 20px auto;
-      border-radius: 8px;
+      background: #eef5fc;
     }
 
-    .project p, .project ul {
-      line-height: 1.6;
-      color: #333;
+    .quick-facts {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin: 20px 0;
     }
 
-    .project ul {
+    .fact {
+      background: #f7fbff;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 14px;
+    }
+
+    .fact strong {
+      display: block;
+      color: var(--navy);
+      font-size: 0.9rem;
+    }
+
+    .fact span {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .content-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-top: 20px;
+    }
+
+    .block {
+      background: #f7fbff;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 22px;
+    }
+
+    .block h3 {
+      color: var(--navy);
+      margin-top: 0;
+      margin-bottom: 12px;
+    }
+
+    .block ul {
+      margin: 0;
       padding-left: 20px;
     }
 
-    .project a {
-      color: #2B4570;
-      text-decoration: none;
-      font-weight: bold;
+    .block li {
+      margin-bottom: 8px;
+      color: var(--text);
     }
 
-    .project a:hover {
-      color: #7180AC;
-      text-decoration: underline;
+    .tags {
+      margin-top: 14px;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 0.8rem;
+      background: #e8f1fb;
+      color: var(--blue);
+      padding: 6px 10px;
+      border-radius: 999px;
+      margin: 4px 4px 0 0;
+      font-weight: 700;
+    }
+
+    .links {
+      margin-top: 18px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: var(--navy);
+      color: white;
+      border: 2px solid var(--navy);
+      font-weight: 700;
+    }
+
+    .button:hover {
+      background: var(--blue);
+      color: white;
+      text-decoration: none;
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: var(--navy);
+    }
+
+    .button.secondary:hover {
+      background: white;
+      color: var(--blue);
     }
 
     footer {
+      background: white;
+      border-top: 1px solid var(--border);
       text-align: center;
-      padding: 15px 0;
-      font-size: 0.9rem;
-      color: #333;
+      padding: 28px 20px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 850px) {
+      .project-header,
+      .content-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .quick-facts {
+        grid-template-columns: 1fr;
+      }
+
+      .nav-container {
+        flex-direction: column;
+      }
     }
   </style>
 </head>
 
 <body>
   <header>
-    <h1><a href="index.html"></a> Projects</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="experience.html">Experience</a></li>
-        <li><a href="coursework.html">Coursework</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="nav-container">
+      <a class="logo" href="index.html">NEHA NEPAL</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="coursework.html">Coursework</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section id="projects">
-    <div class="project" id="capstone">
-      <h3>NGIS Capstone</h3>
-      <img src="ng logo.png" alt="Capstone" width="600" />
-      <p>For this capstone project, I was elected team lead for a group of five students collaborating with Northrop Grumman Innovation Systems (NGIS). NGIS conducts thermal chamber testing for spacecraft components but faces challenges maintaining visual monitoring during extreme conditions. Our objective is to design a camera housing that enables off-the-shelf cameras to operate in spacecraft environments, withstanding temperatures from –180°C to +130°C and pressures down to 10⁻⁴ torr.</p>
-      <p>This quarter, our focus is on research and concept development leading to a functional prototype. We are working closely with NGIS engineers, our faculty advisor, and teaching assistant to ensure technical accuracy and project success. The final design will be presented at the UCSB Capstone Fair next year, where we aim to showcase a professional, high performing solution.</p>
-    </div> 
-
-    <div class="project" id="automatic-window-washer">
-      <h3>Automatic Window Washer</h3>
-      <img width="600" alt="Automatic Window Washer" src="x.png" />
-      <p>This project began as a concept to eliminate the safety risks faced by human window washers working on skyscrapers. However, after researching existing commercial solutions, we shifted focus to create a more practical and impactful product: an automated window washing system for residential homes. The goal was to design a permanent, cost effective system that could be installed once and save homeowners thousands of dollars in window cleaning services over time.</p>
-      <p>Our final design utilized a T-bar gantry mechanism, driven by a stepper motor and motor driver, to move the cleaning module across the window's surface both horizontally and vertically. We developed multiple iterations of the wiper and rail system, using CAD modeling (SolidWorks) and 3D printed prototypes to test and refine functionality.</p>
-      <p>My primary role was leading the design of the fluid dispensing system. This involved:</p>
-      <ul>
-        <li>Calculating the required flow rate and nozzle pressure for effective coverage.</li>
-        <li>Analyzing head loss through the tubing to select an appropriate pump.</li>
-        <li>Integrating the fluid system with the motion system to ensure synchronized cleaning action.</li>
-      </ul>
-      <p>One of the major challenges was balancing compactness with mechanical stability, particularly as we scaled down the design for residential window sizes. The team iterated on bracket designs, friction reduction techniques, and water flow control to optimize performance.</p>
-      <p>We presented our working physical prototype at the UCSB Junior Design Fair, where we demonstrated the engineering process and final product to peers, faculty, and industry professionals. The project showcased not only our technical capabilities, but also our ability to adapt the problem scope based on research and market viability.</p>
-      <p><a href="x.png">Project Poster</a></p>
-      <p><a href="New_ME_153_final_project (2) (2).pdf">Project Report</a></p>
-      <p><a href="Safe Operating Procedure.pdf">Safe Operating Procedure</a></p>
-    </div> 
-
-    <div class="project" id="airfoil-project">
-      <h3>Airfoil Optimization</h3>
-      <img width="600" alt="Airfoil Optimization" src="airfoil.png" />
-      <p>As part of a three person team, I led the mechanical analysis and modeling of a horizontal-axis wind turbine blade optimized for 12 m/s rated wind speed. We used the S8037 airfoil to design a four blade rotor system with a 50 meter diameter and a tip speed ratio of 6.</p>
-      <ul>
-        <li>Used MATLAB to perform aerodynamic calculations, including Reynolds number estimation, chord and pitch optimization, and axial induction factor distribution.</li>
-        <li>Developed and integrated Blade Element Momentum theory to calculate power, torque, and thrust coefficients, validating convergence through iterative modeling.</li>
-        <li>Designed and refined the 3D turbine blade in SolidWorks, then scaled the model for physical stress testing under different material and wind conditions.</li>
-        <li>Conducted simulations to determine critical deflection wind speed and root bending moment, using ABS plastic as a scale model material.</li>
-        <li>Modeled turbine wake behavior using Park, Revised Park, and Entrainment models to assess array performance for a 10 turbine farm layout.</li>
-      </ul>
-      <p>This project strengthened my fluency in aerodynamic modeling and mechanical simulation, and deepened my interest in sustainable power generation and energy system optimization.</p>
-      <p><a href="Wind_and_Tidal_Project (5) (2).pdf">Project Report</a></p>
-    </div> 
-
-    <div class="project" id="codingprojects">
-      <h3>Coding Projects (MATLAB and Python)</h3>
-      <img width="600" alt="Coding Project" src="https://github.com/user-attachments/assets/43d99ee1-b701-497a-b4f0-d361d58dc79f" />
-      <p>The Billiard Simulation Project simulates the motion and collision dynamics of two balls (one blue and one red) in a confined space using MATLAB. The simulation takes into account various forces, including gravity, drag, and friction, to model the motion of the balls. It calculates the velocities, positions, and collision responses of the balls when they hit walls or each other, accounting for energy loss due to damping and friction.</p>
-      <p>I developed the collision detection and velocity response system using physics based algorithms, ensuring that both energy loss and momentum conservation were accounted for.</p>
-      <p><a href="billiard__Copy_.pdf">Project Report</a></p>
-      <p><a href="Untitled.mov">Simulation Video</a></p>
-    </div> 
-
-    <div class="project" id="repcounter">
-      <h3>Rep Counter</h3>
-      <p>For my design class, I maintained a comprehensive record of all my projects, including drawings, sketches, invention ideas, circuitry, SolidWorks designs, and the final project. The final project, which won the "Most Technical Project" award in the class, is showcased on pages 31–38 of the design portfolio, accompanied by a working video demonstration.</p>
-      <p><a href="Final Project.mp4">Project Video</a></p>
-      <p><a href="DESIGN PORTFOLIO.pdf">Design Notebook</a></p>
-    </div>
-
-    <div class="project" id="airmotor">
-      <h3>Air Motor</h3>
-      <img width="751" alt="Air Motor" src="https://github.com/user-attachments/assets/1b0f27f2-918e-43b5-a6cb-394c88038746" />
-      <p>In this project, I designed and built a fully operational air motor, utilizing a range of machining tools and techniques. I operated band saws for cutting raw stock and used Haas vertical mills to precisely cut and drill key motor components. Additionally, I demonstrated machining proficiency by working with lathes to shape, sand, and drill spherical components.</p>
-      <p>After assembly, I achieved an air motor speed of 2800 RPM, surpassing the expected performance by 400 RPM. I conducted thorough performance tests to ensure the motor met all design specifications and ran efficiently. Throughout the project, I documented the process, including design iterations and troubleshooting, providing a comprehensive record of the build.</p>
-    </div> 
-
-    <div class="project" id="navicane">
-      <h3>NaviCane</h3>
-      <img width="751" alt="NaviCane" src="navicane.png" />
-      <p>As part of a technology management course, I pitched an original venture idea to a class of 50 students. Out of all proposals, mine was one of six selected to move forward, positioning me as the CEO of our mock company. I wanted the venture to reflect both my engineering background and a cause I cared deeply about: improving assistive mobility for the blind.</p>
-      <p>I conducted extensive research by interviewing professors in assistive tech, a blind faculty member, engineering students working on similar concepts, and staff at the Braille Institute of Santa Barbara. Their insights guided the product evolution, from an interactive vest to a more viable and user friendly interactive cane.</p>
-      <p>I led the development of our business plan, drafted team contracts, organized regular meetings, and delivered multiple progress pitches. As project lead, I was responsible for setting direction, resolving conflicts, and holding the team accountable.</p>
-      <p>The project was a success, earning top marks on all deliverables and solidifying my passion for applying engineering to socially impactful challenges.</p>
-      <p><a href="Business Plan.docx (1).pdf">Business Plan</a></p>
-      <p><a href="Real Navicane.pdf">Pitch Deck</a></p>
-    </div> 
+  <section class="page-hero">
+    <div class="eyebrow">Engineering Work</div>
+    <h1>Projects</h1>
+    <p>
+      A collection of mechanical engineering projects focused on aerospace design, simulation,
+      robotics, manufacturing, fluid dynamics, and hands-on prototype development.
+    </p>
   </section>
 
+  <div class="project-nav">
+    <a href="#capstone">Spacecraft Housing</a>
+    <a href="#automatic-window-washer">Window Robot</a>
+    <a href="#airfoil-project">Wind Turbine</a>
+    <a href="#codingprojects">Simulation</a>
+    <a href="#repcounter">Rep Counter</a>
+    <a href="#airmotor">Air Motor</a>
+    <a href="#navicane">NaviCane</a>
+  </div>
+
+  <main>
+    <section class="project" id="capstone">
+      <div class="project-header">
+        <div>
+          <h2>Spacecraft Camera Housing</h2>
+          <div class="project-subtitle">Northrop Grumman-Sponsored Senior Capstone</div>
+          <p>
+            Designed a protective camera housing system for spacecraft component testing in extreme thermal
+            and vacuum environments. The goal was to enable off-the-shelf cameras to visually monitor components
+            during thermal chamber testing while surviving conditions from −180°C to +130°C and pressures down to
+            10⁻⁴ torr.
+          </p>
+
+          <div class="tags">
+            <span class="tag">Aerospace</span>
+            <span class="tag">Thermal Design</span>
+            <span class="tag">Vacuum Environment</span>
+            <span class="tag">CAD</span>
+            <span class="tag">Team Lead</span>
+          </div>
+        </div>
+
+        <img src="ng logo.png" alt="Northrop Grumman capstone project" />
+      </div>
+
+      <div class="quick-facts">
+        <div class="fact">
+          <strong>Role</strong>
+          <span>Team Lead</span>
+        </div>
+        <div class="fact">
+          <strong>Team</strong>
+          <span>5 engineers</span>
+        </div>
+        <div class="fact">
+          <strong>Environment</strong>
+          <span>−180°C to +130°C, 10⁻⁴ torr</span>
+        </div>
+      </div>
+
+      <div class="content-grid">
+        <div class="block">
+          <h3>Engineering Challenge</h3>
+          <ul>
+            <li>Protect camera hardware from extreme temperature cycling.</li>
+            <li>Maintain visibility during spacecraft component testing.</li>
+            <li>Account for thermal expansion, vacuum conditions, and manufacturability.</li>
+            <li>Translate industry requirements into a functional prototype architecture.</li>
+          </ul>
+        </div>
+
+        <div class="block">
+          <h3>My Contributions</h3>
+          <ul>
+            <li>Led a five-person engineering team through research, concept development, and design planning.</li>
+            <li>Coordinated with Northrop Grumman engineers, faculty advisors, and teaching staff.</li>
+            <li>Supported mechanical design decisions related to housing geometry, material behavior, and test constraints.</li>
+            <li>Helped prepare the project for prototype development and final capstone presentation.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="project" id="automatic-window-washer">
+      <div class="project-header">
+        <div>
+          <h2>Autonomous Window Cleaning Robot</h2>
+          <div class="project-subtitle">Mechanical Design + Fluid Delivery System</div>
+          <p>
+            Designed and prototyped a residential window-cleaning system using a T-bar gantry mechanism,
+            stepper motor control, 3D printed components, and an integrated fluid dispensing subsystem.
+          </p>
+
+          <div class="tags">
+            <span class="tag">Robotics</span>
+            <span class="tag">Fluid Mechanics</span>
+            <span class="tag">Arduino</span>
+            <span class="tag">SolidWorks</span>
+            <span class="tag">3D Printing</span>
+          </div>
+        </div>
+
+        <img src="x.png" alt="Autonomous window cleaning robot project" />
+      </div>
+
+      <div class="quick-facts">
+        <div class="fact">
+          <strong>Role</strong>
+          <span>Fluid system lead</span>
+        </div>
+        <div class="fact">
+          <strong>Prototype</strong>
+          <span>Working physical system</span>
+        </div>
+        <div class="fact">
+          <strong>Output</strong>
+          <span>Presented at UCSB Junior Design Fair</span>
+        </div>
+      </div>
+
+      <div class="content-grid">
+        <div class="block">
+          <h3>My Contributions</h3>
+          <ul>
+            <li>Calculated required flow rate and nozzle pressure for effective window coverage.</li>
+            <li>Analyzed tubing head loss to select an appropriate pump.</li>
+            <li>Integrated the fluid system with the mechanical motion system.</li>
+            <li>Supported design iterations for compactness, stability, and friction reduction.</li>
+          </ul>
+        </div>
+
+        <div class="block">
+          <h3>Engineering Process</h3>
+          <ul>
+            <li>Researched existing window-cleaning solutions and revised product scope.</li>
+            <li>Modeled mechanical components in SolidWorks.</li>
+            <li>Fabricated and tested 3D printed bracket and rail designs.</li>
+            <li>Validated prototype performance through live demonstration.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="links">
+        <a class="button" href="x.png">Project Poster</a>
+        <a class="button secondary" href="New_ME_153_final_project (2) (2).pdf">Project Report</a>
+        <a class="button secondary" href="Safe Operating Procedure.pdf">Safe Operating Procedure</a>
+      </div>
+    </section>
+
+    <section class="project" id="airfoil-project">
+      <div class="project-header">
+        <div>
+          <h2>Wind Turbine Performance Modeling</h2>
+          <div class="project-subtitle">Blade Element Momentum Theory + Wake Analysis</div>
+          <p>
+            Modeled the aerodynamic performance of a horizontal-axis wind turbine using MATLAB and Blade Element
+            Momentum theory. The turbine used an S8037 airfoil, four blades, a 50-meter rotor diameter, and a
+            tip speed ratio of 6 at a rated wind speed of 12 m/s.
+          </p>
+
+          <div class="tags">
+            <span class="tag">MATLAB</span>
+            <span class="tag">BEM Theory</span>
+            <span class="tag">Aerodynamics</span>
+            <span class="tag">SolidWorks</span>
+            <span class="tag">Wake Modeling</span>
+          </div>
+        </div>
+
+        <img src="airfoil.png" alt="Wind turbine airfoil optimization project" />
+      </div>
+
+      <div class="quick-facts">
+        <div class="fact">
+          <strong>Rotor</strong>
+          <span>50 m diameter</span>
+        </div>
+        <div class="fact">
+          <strong>Rated Speed</strong>
+          <span>12 m/s</span>
+        </div>
+        <div class="fact">
+          <strong>Output</strong>
+          <span>1.03 MW predicted power</span>
+        </div>
+      </div>
+
+      <div class="content-grid">
+        <div class="block">
+          <h3>Technical Work</h3>
+          <ul>
+            <li>Estimated Reynolds number, chord, pitch, and axial induction factor distributions.</li>
+            <li>Calculated power, torque, and thrust coefficients through iterative MATLAB modeling.</li>
+            <li>Created and refined a 3D blade model in SolidWorks.</li>
+            <li>Analyzed wake behavior using Park, Revised Park, and Entrainment models.</li>
+          </ul>
+        </div>
+
+        <div class="block">
+          <h3>Results</h3>
+          <ul>
+            <li>Predicted 1.03 MW of turbine power generation.</li>
+            <li>Evaluated root bending moment and critical deflection wind speed.</li>
+            <li>Modeled 10-turbine farm behavior using wake interaction analysis.</li>
+            <li>Strengthened aerodynamic modeling and simulation workflow skills.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="links">
+        <a class="button" href="Wind_and_Tidal_Project (5) (2).pdf">Project Report</a>
+      </div>
+    </section>
+
+    <section class="project" id="codingprojects">
+      <div class="project-header">
+        <div>
+          <h2>Physics-Based Billiards Simulation</h2>
+          <div class="project-subtitle">MATLAB Collision and Motion Modeling</div>
+          <p>
+            Developed a MATLAB simulation of two billiard balls moving and colliding in a confined space.
+            The model accounted for wall collisions, ball-to-ball impact, damping, drag, friction, and velocity response.
+          </p>
+
+          <div class="tags">
+            <span class="tag">MATLAB</span>
+            <span class="tag">Dynamics</span>
+            <span class="tag">Collision Modeling</span>
+            <span class="tag">Numerical Simulation</span>
+          </div>
+        </div>
+
+        <img src="https://github.com/user-attachments/assets/43d99ee1-b701-497a-b4f0-d361d58dc79f" alt="MATLAB billiards simulation" />
+      </div>
+
+      <div class="content-grid">
+        <div class="block">
+          <h3>Engineering Focus</h3>
+          <ul>
+            <li>Modeled motion using position, velocity, drag, friction, and damping terms.</li>
+            <li>Implemented wall and ball collision detection logic.</li>
+            <li>Calculated velocity responses after impact.</li>
+            <li>Balanced energy loss with momentum conservation behavior.</li>
+          </ul>
+        </div>
+
+        <div class="block">
+          <h3>Skills Developed</h3>
+          <ul>
+            <li>Physics-based algorithm development.</li>
+            <li>Numerical modeling in MATLAB.</li>
+            <li>Dynamic system visualization.</li>
+            <li>Debugging and validating simulation behavior.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="links">
+        <a class="button" href="billiard__Copy_.pdf">Project Report</a>
+        <a class="button secondary" href="Untitled.mov">Simulation Video</a>
+      </div>
+    </section>
+
+    <section class="project" id="repcounter">
+      <div class="project-header">
+        <div>
+          <h2>Embedded Motion Rep Counter</h2>
+          <div class="project-subtitle">Sensor-Based Mechanical Tracking System</div>
+          <p>
+            Designed an embedded motion-tracking device using electronics, mechanical design, and prototyping.
+            This final design project won the “Most Technical Project” award in the class.
+          </p>
+
+          <div class="tags">
+            <span class="tag">Arduino</span>
+            <span class="tag">Sensors</span>
+            <span class="tag">SolidWorks</span>
+            <span class="tag">3D Printing</span>
+            <span class="tag">Mechatronics</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-grid">
+        <div class="block">
+          <h3>Project Scope</h3>
+          <ul>
+            <li>Created sketches, invention concepts, circuitry, CAD models, and final prototype documentation.</li>
+            <li>Designed a physical enclosure and supporting components.</li>
+            <li>Integrated sensing hardware with a mechanical use case.</li>
+          </ul>
+        </div>
+
+        <div class="block">
+          <h3>Recognition</h3>
+          <ul>
+            <li>Won “Most Technical Project” in the class.</li>
+            <li>Documented the full design process in a comprehensive design notebook.</li>
+            <li>Created a working video demonstration of the final project.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="links">
+        <a class="button" href="Final Project.mp4">Project Video</a>
+        <a class="button secondary" href="DESIGN PORTFOLIO.pdf">Design Notebook</a>
+      </div>
+    </section>
+
+    <section class="project" id="airmotor">
+      <div class="project-header">
+        <div>
+          <h2>Machined Air Motor</h2>
+          <div class="project-subtitle">Machine Shop Manufacturing + Performance Testing</div>
+          <p>
+            Designed, machined, assembled, and tested a fully operational air motor using manual and CNC machining tools.
+            The final motor achieved a speed of 2800 RPM, exceeding expected performance by 400 RPM.
+          </p>
+
+          <div class="tags">
+            <span class="tag">Machining</span>
+            <span class="tag">Haas Mill</span>
+            <span class="tag">Lathe</span>
+            <span class="tag">Assembly</span>
+            <span class="tag">Testing</span>
+          </div>
+        </div>
+
+        <img src="https://github.com/user-attachments/assets/1b0f27f2-918e-43b5-a6cb-394c88038746" alt="Machined air motor" />
+      </div>
+
+      <div class="quick-facts">
+        <div class="fact">
+          <strong>Final Speed</strong>
+          <span>2800 RPM</span>
+        </div>
+        <div class="fact">
+          <strong>Performance</strong>
+          <span>400 RPM above expected</span>
+        </div>
+        <div class="fact">
+          <strong>Tools</strong>
+          <span>Mill, lathe, band saw</span>
+        </div>
+      </div>
+
+      <div class="content-grid">
+        <div class="block">
+          <h3>Manufacturing Work</h3>
+          <ul>
+            <li>Operated band saws to prepare raw stock.</li>
+            <li>Used Haas vertical mills to cut and drill key motor components.</li>
+            <li>Used lathes to shape, sand, and drill spherical components.</li>
+            <li>Assembled and tested the final air motor.</li>
+          </ul>
+        </div>
+
+        <div class="block">
+          <h3>Results</h3>
+          <ul>
+            <li>Achieved 2800 RPM operating speed.</li>
+            <li>Exceeded expected performance by 400 RPM.</li>
+            <li>Built confidence in precision machining and mechanical troubleshooting.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="project" id="navicane">
+      <div class="project-header">
+        <div>
+          <h2>NaviCane</h2>
+          <div class="project-subtitle">Assistive Technology Venture Concept</div>
+          <p>
+            Led the development of a venture concept for an interactive cane designed to improve assistive mobility
+            for blind users. The project combined engineering research, customer discovery, product development,
+            business planning, and technical pitching.
+          </p>
+
+          <div class="tags">
+            <span class="tag">Assistive Tech</span>
+            <span class="tag">Product Strategy</span>
+            <span class="tag">User Research</span>
+            <span class="tag">Leadership</span>
+            <span class="tag">Entrepreneurship</span>
+          </div>
+        </div>
+
+        <img src="navicane.png" alt="NaviCane assistive technology project" />
+      </div>
+
+      <div class="content-grid">
+        <div class="block">
+          <h3>Leadership</h3>
+          <ul>
+            <li>Pitched the original idea to a class of 50 students.</li>
+            <li>Selected as one of six proposals to move forward.</li>
+            <li>Served as CEO of the mock company.</li>
+            <li>Led business planning, team contracts, meetings, and progress pitches.</li>
+          </ul>
+        </div>
+
+        <div class="block">
+          <h3>User Research</h3>
+          <ul>
+            <li>Interviewed professors, a blind faculty member, engineering students, and Braille Institute staff.</li>
+            <li>Used feedback to pivot from an interactive vest to a more viable interactive cane.</li>
+            <li>Connected engineering design choices to user-centered product development.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="links">
+        <a class="button" href="Business Plan.docx (1).pdf">Business Plan</a>
+        <a class="button secondary" href="Real Navicane.pdf">Pitch Deck</a>
+      </div>
+    </section>
+  </main>
+
   <footer>
-    <p>&copy; 2025 Neha Nepal. All rights reserved.</p>
+    <p>&copy; 2026 Neha Nepal. All rights reserved.</p>
   </footer>
 </body>
 </html>
