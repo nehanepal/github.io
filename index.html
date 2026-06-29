@@ -1,170 +1,560 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
   <meta charset="UTF-8" />
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <link rel="stylesheet" href="styles.css" />
-
-  <title>Neha Nepal | Portfolio</title>
+  <title>Neha Nepal | Mechanical Engineer</title>
 
   <style>
+    :root {
+      --navy: #003459;
+      --blue: #2B4570;
+      --soft-blue: #f0f8ff;
+      --light-card: #ffffff;
+      --text: #1f2933;
+      --muted: #5f6c7b;
+      --accent: #7180AC;
+      --border: #d7e3f1;
+    }
 
-  body {
+    * {
+      box-sizing: border-box;
+    }
 
-    background-color: #f0f8ff;
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--soft-blue);
+      color: var(--text);
+      line-height: 1.6;
+    }
 
-    font-family: sans-serif;
+    a {
+      color: var(--blue);
+      text-decoration: none;
+      font-weight: 600;
+    }
 
-    margin: 0;
+    a:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
 
-    padding: 0;
+    header {
+      background: white;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
 
-  }
+    .nav-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 18px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
 
-  header, h2 {
+    .logo {
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: var(--navy);
+      letter-spacing: 0.04em;
+    }
 
-    text-align: center;
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 22px;
+      padding: 0;
+      margin: 0;
+      flex-wrap: wrap;
+    }
 
-  }
+    nav a {
+      font-size: 0.95rem;
+    }
 
-  nav ul {
+    .hero {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 80px 24px 60px;
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 50px;
+      align-items: center;
+    }
 
-    list-style: none;
+    .eyebrow {
+      color: var(--blue);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 0.85rem;
+      margin-bottom: 12px;
+    }
 
-    padding: 0;
+    .hero h1 {
+      font-size: clamp(2.8rem, 7vw, 5.2rem);
+      line-height: 1;
+      margin: 0 0 18px;
+      color: var(--navy);
+    }
 
-  }
+    .hero h2 {
+      font-size: clamp(1.35rem, 3vw, 2rem);
+      line-height: 1.25;
+      margin: 0 0 20px;
+      color: var(--blue);
+      font-weight: 700;
+    }
 
-  nav ul li {
+    .hero p {
+      font-size: 1.08rem;
+      color: var(--muted);
+      max-width: 650px;
+      margin-bottom: 28px;
+    }
 
-    display: inline;
+    .button-row {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
 
-    margin: 0 15px;
+    .button {
+      display: inline-block;
+      padding: 12px 20px;
+      border-radius: 999px;
+      background: var(--navy);
+      color: white;
+      font-weight: 700;
+      border: 2px solid var(--navy);
+    }
 
-  }
+    .button:hover {
+      background: var(--blue);
+      color: white;
+      text-decoration: none;
+    }
 
-  a {
+    .button.secondary {
+      background: transparent;
+      color: var(--navy);
+    }
 
-    color: #2B4570;
+    .button.secondary:hover {
+      background: white;
+      color: var(--blue);
+    }
 
-    text-decoration: none;
+    .hero-card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: 0 12px 35px rgba(0, 52, 89, 0.10);
+      text-align: center;
+    }
 
-  }
+    .hero-card img {
+      width: 100%;
+      max-width: 340px;
+      border-radius: 18px;
+      display: block;
+      margin: 0 auto 18px;
+    }
 
-  a:hover {
+    .hero-card p {
+      margin: 0;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
 
-    color: #7180AC;
+    section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 55px 24px;
+    }
 
-    text-decoration: underline;
+    .section-heading {
+      text-align: center;
+      margin-bottom: 32px;
+    }
 
-  }
+    .section-heading h2 {
+      color: var(--navy);
+      font-size: 2rem;
+      margin: 0 0 10px;
+    }
 
-  #intro {
+    .section-heading p {
+      color: var(--muted);
+      max-width: 700px;
+      margin: 0 auto;
+    }
 
-    max-width: 800px;
+    .about-box {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 34px;
+      box-shadow: 0 8px 24px rgba(0, 52, 89, 0.07);
+    }
 
-    margin: 0 auto;
+    .grid {
+      display: grid;
+      gap: 22px;
+    }
 
-    text-align: left;
+    .focus-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
 
-  }
+    .project-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
 
-  #intro p {
+    .card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(0, 52, 89, 0.07);
+    }
 
-    line-height: 1.6;
+    .card h3 {
+      color: var(--navy);
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 1.25rem;
+    }
 
-    color: #333;
+    .card p {
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
 
-    background-color: white;
+    .tag {
+      display: inline-block;
+      font-size: 0.8rem;
+      background: #e8f1fb;
+      color: var(--blue);
+      padding: 6px 10px;
+      border-radius: 999px;
+      margin: 4px 4px 0 0;
+      font-weight: 700;
+    }
 
-    padding: 25px;
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+      margin-top: 26px;
+    }
 
-    border-radius: 8px;
+    .stat {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px;
+      text-align: center;
+    }
 
-    box-shadow: 0 2px 8px rgba(0, 52, 89, 0.1);
+    .stat strong {
+      display: block;
+      font-size: 1.7rem;
+      color: var(--navy);
+    }
 
-  }
+    .stat span {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
 
-  #intro img {
+    .experience-highlight {
+      background: var(--navy);
+      color: white;
+      border-radius: 24px;
+      padding: 34px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+      align-items: center;
+    }
 
-    display: block;
+    .experience-highlight h2,
+    .experience-highlight h3 {
+      color: white;
+      margin-top: 0;
+    }
 
-    margin: 20px auto;
+    .experience-highlight p {
+      color: #dce9f5;
+    }
 
-  }
+    .experience-highlight a {
+      color: white;
+      text-decoration: underline;
+    }
 
-  footer {
+    footer {
+      background: white;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 28px 20px;
+      color: var(--muted);
+      margin-top: 40px;
+    }
 
-    text-align: center;
+    @media (max-width: 850px) {
+      .hero,
+      .experience-highlight {
+        grid-template-columns: 1fr;
+      }
 
-  }
+      .focus-grid,
+      .project-grid,
+      .stats {
+        grid-template-columns: 1fr 1fr;
+      }
 
-</style>
+      .nav-container {
+        flex-direction: column;
+      }
+    }
 
+    @media (max-width: 560px) {
+      .focus-grid,
+      .project-grid,
+      .stats {
+        grid-template-columns: 1fr;
+      }
+
+      nav ul {
+        justify-content: center;
+      }
+
+      .hero {
+        padding-top: 50px;
+      }
+    }
+  </style>
 </head>
 
 <body>
-
   <header>
-
-    <h1 style="font-size: 4rem; color: #003459;">NEHA NEPAL</h1>
-
-    <nav>
-
-      <ul>
-
-        <li><a href="index.html">Home</a></li>
-
-        <li><a href="projects.html">Projects</a></li>
-
-        <li><a href="experience.html">Experience</a></li>
-
-        <li><a href="coursework.html">Coursework</a></li>
-
-        <li><a href="contact.html">Contact</a></li>
-
-      </ul>
-
-    </nav>
-
+    <div class="nav-container">
+      <a class="logo" href="index.html">NEHA NEPAL</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="coursework.html">Coursework</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section id="intro">
+  <main>
+    <section class="hero">
+      <div>
+        <div class="eyebrow">Mechanical Engineer</div>
+        <h1>Neha Nepal</h1>
+        <h2>Designing aerospace, robotic, and thermal systems through simulation, CAD, and hands-on prototyping.</h2>
+        <p>
+          I am a Mechanical Engineering graduate from UC Santa Barbara with experience in mechanical design,
+          fluid dynamics, heat transfer, HVAC engineering, MATLAB modeling, and multidisciplinary prototype development.
+          My work focuses on turning engineering concepts into testable, reliable systems.
+        </p>
 
-   <h2>Welcome!</h2>
-    <div class="intro-container">
+        <div class="button-row">
+          <a class="button" href="projects.html">View Projects</a>
+          <a class="button secondary" href="RESUME (1) - Google Docs.pdf" target="_blank">Download Resume</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/nehanepal/" target="_blank">LinkedIn</a>
+        </div>
+      </div>
 
-    <img src="nehanepal@ucsb.edu-c0a8d455.jpg" width="400" alt="Neha Nepal" />
+      <div class="hero-card">
+        <img src="nehanepal@ucsb.edu-c0a8d455.jpg" alt="Neha Nepal" />
+        <p>
+          Seeking full-time Mechanical, Aerospace, Robotics, or Systems Engineering roles beginning in 2026.
+        </p>
+      </div>
+    </section>
 
-    <div class="intro-text">
+    <section>
+      <div class="section-heading">
+        <h2>Engineering Focus</h2>
+        <p>
+          My interests sit at the intersection of mechanical design, simulation, manufacturing, and physical testing.
+        </p>
+      </div>
 
-   <p>My name is Neha Nepal and I graduated with a B.S. in Mechanical Engineering from UCSB in June, 2026. Born in Nepal and raised in the United States since the age of seven, I have always been driven by curiosity about how things move, interact, and function. </p>
+      <div class="grid focus-grid">
+        <div class="card">
+          <h3>Mechanical Design</h3>
+          <p>CAD, assemblies, design iteration, component integration, and prototype development.</p>
+          <span class="tag">SolidWorks</span>
+          <span class="tag">Fusion 360</span>
+          <span class="tag">3D Printing</span>
+        </div>
 
+        <div class="card">
+          <h3>Thermal & Fluids</h3>
+          <p>Heat transfer, fluid mechanics, HVAC systems, airflow, and energy system behavior.</p>
+          <span class="tag">Heat Transfer</span>
+          <span class="tag">Fluid Dynamics</span>
+          <span class="tag">HVAC</span>
+        </div>
 
-<p>Although I entered college with a strong focus on aerospace engineering, my experience in UCSB’s Mechanical Engineering program broadened my perspective. Collaborating with peers whose interests span bioengineering, mechatronics, and energy systems exposed me to new applications of engineering principles. Through this environment, my passion evolved beyond aerospace alone to a deeper interest in heat transfer and fluid mechanics as well as an interest in robotics and controls.</p>
+        <div class="card">
+          <h3>Simulation</h3>
+          <p>MATLAB modeling, engineering analysis, numerical methods, and performance prediction.</p>
+          <span class="tag">MATLAB</span>
+          <span class="tag">Python</span>
+          <span class="tag">FEA</span>
+        </div>
 
+        <div class="card">
+          <h3>Robotics & Controls</h3>
+          <p>Arduino systems, sensors, mechatronics, mechanical motion, and embedded prototypes.</p>
+          <span class="tag">Arduino</span>
+          <span class="tag">Sensors</span>
+          <span class="tag">Controls</span>
+        </div>
+      </div>
+    </section>
 
+    <section>
+      <div class="section-heading">
+        <h2>About Me</h2>
+        <p>
+          A concise snapshot of how I approach engineering problems.
+        </p>
+      </div>
 
-<p>I have gained both research and hands-on experience in fluid dynamics and heat transfer, developing a strong analytical foundation alongside practical problem-solving skills. I am particularly interested in applying these experiences, along with my passion for robotics, to industry roles. I am excited to contribute to innovative technologies where fluidics, heat transfer, and intelligent systems intersect.</p>
+      <div class="about-box">
+        <p>
+          I enjoy solving problems where mechanical, thermal, and structural constraints all influence the final design.
+          Through internships, undergraduate research, and design projects, I have built experience connecting analytical
+          engineering with hands-on implementation. Whether I am modeling wind turbine performance in MATLAB, designing a
+          camera housing for extreme spacecraft environments, or supporting commercial HVAC projects, I approach engineering
+          by asking what the system needs to do, what constraints matter most, and how the design can be tested.
+        </p>
+      </div>
 
-  </div>
+      <div class="stats">
+        <div class="stat">
+          <strong>10+</strong>
+          <span>Engineering projects</span>
+        </div>
+        <div class="stat">
+          <strong>$2–3M</strong>
+          <span>HVAC projects supported</span>
+        </div>
+        <div class="stat">
+          <strong>1.03 MW</strong>
+          <span>Wind turbine model output</span>
+        </div>
+        <div class="stat">
+          <strong>15+</strong>
+          <span>3D printed components</span>
+        </div>
+      </div>
+    </section>
 
-  </div>
-</section>
+    <section>
+      <div class="section-heading">
+        <h2>Featured Projects</h2>
+        <p>
+          A few projects that represent my experience in aerospace design, robotics, simulation, and prototyping.
+        </p>
+      </div>
 
+      <div class="grid project-grid">
+        <div class="card">
+          <h3>Spacecraft Camera Housing</h3>
+          <p>
+            Northrop Grumman-sponsored capstone focused on designing a camera housing for extreme spacecraft
+            environments, including temperatures from −180°C to +130°C and vacuum conditions down to 10⁻⁴ torr.
+          </p>
+          <span class="tag">Aerospace</span>
+          <span class="tag">Thermal</span>
+          <span class="tag">CAD</span>
+          <p><a href="projects.html#capstone">View project →</a></p>
+        </div>
 
+        <div class="card">
+          <h3>Autonomous Window Cleaning Robot</h3>
+          <p>
+            Designed and prototyped a residential window-cleaning system using a gantry mechanism, fluid delivery
+            subsystem, 3D printed parts, and Arduino-based motion control.
+          </p>
+          <span class="tag">Robotics</span>
+          <span class="tag">Prototyping</span>
+          <span class="tag">Fluids</span>
+          <p><a href="projects.html#automatic-window-washer">View project →</a></p>
+        </div>
+
+        <div class="card">
+          <h3>Wind Turbine Performance Modeling</h3>
+          <p>
+            Developed MATLAB models using Blade Element Momentum theory to evaluate aerodynamic performance,
+            wake behavior, and turbine output for a horizontal-axis wind turbine.
+          </p>
+          <span class="tag">MATLAB</span>
+          <span class="tag">BEM Theory</span>
+          <span class="tag">Energy</span>
+          <p><a href="projects.html#airfoil-project">View project →</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="experience-highlight">
+        <div>
+          <h2>Current Engineering Experience</h2>
+          <h3>Project Engineering Intern · Western Allied Mechanical</h3>
+          <p>
+            Supported mechanical engineering and project coordination across more than ten commercial HVAC projects,
+            including healthcare and laboratory environments. Reviewed drawings, conducted field audits, supported RFIs
+            and submittals, and helped coordinate mechanical systems in real project environments.
+          </p>
+          <p><a href="experience.html">Read more about my experience →</a></p>
+        </div>
+
+        <div>
+          <p><strong>Technical areas:</strong></p>
+          <p>
+            HVAC systems · Mechanical drawings · Field engineering · Heat transfer · Fluid flow · Construction coordination · QA/QC
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <h2>Let’s Connect</h2>
+        <p>
+          I am currently open to mechanical engineering, aerospace, robotics, product development, and systems engineering roles.
+        </p>
+      </div>
+
+      <div class="button-row" style="justify-content: center;">
+        <a class="button" href="mailto:nepalneha1@gmail.com">Email Me</a>
+        <a class="button secondary" href="contact.html">Contact Page</a>
+      </div>
+    </section>
+  </main>
 
   <footer>
-
-    <p>&copy; 2024 Neha Nepal. All rights reserved.</p>
-
+    <p>&copy; 2026 Neha Nepal. All rights reserved.</p>
   </footer>
-
 </body>
-
 </html>
