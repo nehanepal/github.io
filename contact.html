@@ -1,136 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css" />
-  <title>Contact | Neha Nepal</title>
-  <style>
-    body {
-      background-color: #f0f8ff;
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-    }
 
-    /* Header */
-    header {
-      text-align: center;
-      padding: 20px 0;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    header h1 {
-      color: #003459;
-      font-size: 2.5rem;
-      margin: 0;
-    }
+<title>Contact | Neha Nepal</title>
 
-    nav ul {
-      list-style: none;
-      padding: 0;
-      margin-top: 15px;
-    }
+<style>
 
-    nav ul li {
-      display: inline;
-      margin: 0 15px;
-    }
+:root{
+--navy:#003459;
+--blue:#2B4570;
+--soft:#f0f8ff;
+--border:#d7e3f1;
+--text:#1f2933;
+--muted:#5f6c7b;
+}
 
-    header a, nav a {
-      color: #2B4570;
-      text-decoration: none;
-    }
+*{
+box-sizing:border-box;
+}
 
-    header a:hover, nav a:hover {
-      color: #7180AC;
-      text-decoration: underline;
-    }
+body{
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+background:var(--soft);
+color:var(--text);
+}
 
-    /* Contact section */
-    #contact {
-      max-width: 800px;
-      margin: 0 auto;
-      text-align: left;
-      padding: 20px;
-    }
+a{
+color:var(--blue);
+text-decoration:none;
+font-weight:700;
+}
 
-    #contact h2 {
-      color: #003459;
-      text-align: center;
-    }
+a:hover{
+text-decoration:underline;
+}
 
-    #contact h3 {
-      color: #003459;
-      margin-top: 30px;
-      margin-bottom: 10px;
-    }
+header{
+background:white;
+border-bottom:1px solid var(--border);
+position:sticky;
+top:0;
+z-index:10;
+}
 
-    #contact p {
-      margin: 8px 0;
-      font-size: 1.05em;
-      line-height: 1.6;
-      color: #333;
-    }
+.nav-container{
+max-width:1100px;
+margin:auto;
+padding:18px 24px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:20px;
+}
 
-    #contact a {
-      color: #2B4570;
-      text-decoration: none;
-      font-weight: bold;
-    }
+.logo{
+font-size:1.2rem;
+font-weight:800;
+color:var(--navy);
+letter-spacing:.04em;
+}
 
-    #contact a:hover {
-      color: #7180AC;
-      text-decoration: underline;
-    }
+nav ul{
+display:flex;
+list-style:none;
+gap:22px;
+padding:0;
+margin:0;
+flex-wrap:wrap;
+}
 
-    footer {
-      text-align: center;
-      padding: 15px 0;
-      font-size: 0.9rem;
-      color: #333;
-      margin-top: 40px;
-    }
-  </style>
+nav a{
+font-size:.95rem;
+}
+
+.hero{
+max-width:900px;
+margin:auto;
+padding:70px 20px 30px;
+text-align:center;
+}
+
+.hero h1{
+font-size:3rem;
+margin-bottom:15px;
+color:var(--navy);
+}
+
+.hero p{
+font-size:1.1rem;
+color:var(--muted);
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:20px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:22px;
+border:1px solid var(--border);
+box-shadow:0 8px 22px rgba(0,52,89,.08);
+}
+
+.card h2{
+margin-top:0;
+color:var(--navy);
+}
+
+.card p{
+color:var(--muted);
+line-height:1.7;
+}
+
+.button{
+display:inline-block;
+margin-top:12px;
+padding:12px 18px;
+background:var(--navy);
+color:white;
+border-radius:999px;
+font-weight:700;
+}
+
+.button:hover{
+background:var(--blue);
+text-decoration:none;
+}
+
+footer{
+margin-top:50px;
+text-align:center;
+padding:30px;
+background:white;
+border-top:1px solid var(--border);
+color:var(--muted);
+}
+
+@media(max-width:850px){
+
+.nav-container{
+flex-direction:column;
+}
+
+nav ul{
+justify-content:center;
+}
+
+}
+
+</style>
+
 </head>
+
 <body>
-  <header>
-    <h1><a href="index.html"></a> Contact</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About</a></li>
 
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="experience.html">Experience</a></li>
-        <li><a href="skills.html">Technical Skills</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<header>
 
-  <section id="contact">
-    <h2>Get In Touch</h2>
-    <p>I'm always open to discussing new opportunities, collaborations, or just connecting with fellow engineers and students. Feel free to reach out using any method below!</p>
-    
-    <h3>Email</h3>
-    <p><a href="mailto:nepalneha1@gmail.com">nepalneha1@gmail.com</a></p>
-    
-    <h3>LinkedIn</h3>
-    <p><a href="https://www.linkedin.com/in/nehanepal/" target="_blank">linkedin.com/in/nehanepal</a></p>
-    
-    <h3>Location</h3>
-    <p>Santa Barbara, California</p>
-    
-    <h3>Resume</h3>
-    <p><a href="RESUME (1) - Google Docs.pdf" target="_blank">Download My Resume (PDF)</a></p>
-    
-    <h3>Availability</h3>
-    <p>Expected Graduation: June 2026 </p>
-    <p>Open to: Full-time positions & Internships </p>
-  </section>
+<div class="nav-container">
 
-  <footer>
-    <p>&copy; 2025 Neha Nepal. All rights reserved.</p>
-  </footer>
+<a class="logo" href="index.html">NEHA NEPAL</a>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="projects.html">Projects</a></li>
+
+<li><a href="experience.html">Experience</a></li>
+
+<li><a href="skills.html">Technical Skills</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<h1>Let's Connect</h1>
+
+<p>
+
+Thank you for visiting my portfolio.
+
+I'm currently seeking full-time Mechanical Engineering opportunities beginning in 2026.
+
+If you think my background aligns with your team, I'd love to hear from you.
+
+</p>
+
+</section>
+
+<section class="container">
+
+<div class="card">
+
+<h2>Email</h2>
+
+<p>
+
+The best way to reach me is by email.
+
+I typically respond within 24 hours.
+
+</p>
+
+<p>
+
+<strong>nepalneha1@gmail.com</strong>
+
+</p>
+
+<a class="button" href="mailto:nepalneha1@gmail.com">
+
+Send Email
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>LinkedIn</h2>
+
+<p>
+
+Connect with me on LinkedIn to view my professional experience, projects, and career updates.
+
+</p>
+
+<a class="button"
+
+href="https://www.linkedin.com/in/nehanepal/"
+
+target="_blank">
+
+Visit LinkedIn
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>Resume</h2>
+
+<p>
+
+Download my most recent resume to learn more about my education, experience, technical skills, and engineering projects.
+
+</p>
+
+<a class="button"
+
+href="RESUME (1) - Google Docs.pdf"
+
+target="_blank">
+
+Download Resume
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>Currently Looking For</h2>
+
+<p>
+
+• Mechanical Engineering
+
+<br><br>
+
+• Aerospace Engineering
+
+<br><br>
+
+• Robotics
+
+<br><br>
+
+• Product Development
+
+<br><br>
+
+• Systems Engineering
+
+<br><br>
+
+Preferred locations include California, Washington, Massachusetts, and other opportunities across the United States.
+
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Neha Nepal
+
+</footer>
+
 </body>
+
 </html>
