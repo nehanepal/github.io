@@ -7,7 +7,57 @@
 
 <title>Contact | Neha Nepal</title>
 <link rel="stylesheet" href="styles.css">
+<style>
+.hero {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 70px 20px 30px;
+  text-align: center;
+}
 
+.hero h1 {
+  font-size: 3rem;
+  margin: 0 0 15px;
+  color: var(--navy);
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: var(--muted);
+  max-width: 760px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  padding: 30px;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: var(--navy);
+}
+
+.card p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+@media (max-width: 560px) {
+  .hero h1 {
+    font-size: 2.4rem;
+  }
+}
+</style>
 </head>
 
 <body>
